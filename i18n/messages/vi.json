@@ -115,7 +115,8 @@
       "home": "Trang chủ",
       "features": "Tính năng",
       "techStack": "Công nghệ"
-    }
+    },
+    "getStarted": "Thử ngay"
   },
   "Footer": {
     "copyright": "Bản quyền © {year} NextJS StarterKit. Đã đăng ký bản quyền.",

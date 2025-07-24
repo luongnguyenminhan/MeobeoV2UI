@@ -115,7 +115,8 @@
       "home": "Home",
       "features": "Features",
       "techStack": "Tech Stack"
-    }
+    },
+    "getStarted": "Get Started"
   },
   "Footer": {
     "copyright": "Copyright © {year} NextJS StarterKit. All rights reserved.",
