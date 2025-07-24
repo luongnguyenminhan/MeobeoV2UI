@@ -1,0 +1,171 @@
+{
+  "HomePage": {
+    "title": "Xin chào thế giới!",
+    "hero": {
+      "welcome": "Chào mừng đến với",
+      "title": "Next.js Starter",
+      "description": "Xây dựng nhanh hơn với bộ khởi động Next.js mạnh mẽ! Tích hợp các công cụ thiết yếu như quản lý trạng thái, React Query, I18n, CI/CD và các thành phần UI tuỳ chỉnh, đây là tất cả những gì bạn cần để bắt đầu dự án hiệu suất cao, dễ mở rộng một cách dễ dàng.",
+      "buttons": {
+        "getStarted": "Bắt đầu",
+        "viewGithub": "Xem trên GitHub"
+      }
+    },
+    "features": {
+      "title": {
+        "prefix": "Vì sao chọn",
+        "suffix": "Starter này?"
+      },
+      "description": "Tăng tốc quá trình phát triển với bộ khởi động Next.js mạnh mẽ, giàu tính năng, được thiết kế cho tốc độ, khả năng mở rộng và năng suất lập trình viên. Đây là những điểm nổi bật:",
+      "items": {
+        "openSource": {
+          "name": "Miễn phí & Mã nguồn mở",
+          "summary": "Xây dựng, tuỳ chỉnh và sáng tạo tự do!",
+          "description": "Starter Next.js của chúng tôi hoàn toàn mã nguồn mở, cho phép bạn đóng góp, tuỳ biến và cập nhật các tiêu chuẩn mới nhất mà không tốn chi phí."
+        },
+        "devStack": {
+          "name": "Stack phát triển hiện đại",
+          "summary": "Trải nghiệm phát triển mượt mà với Next.js, React và TypeScript.",
+          "description": "Starter được thiết kế hướng đến khả năng mở rộng, tích hợp React Query để lấy dữ liệu, Redux cho quản lý trạng thái và Tailwind CSS để xây dựng UI nhanh chóng."
+        },
+        "stateManagement": {
+          "name": "Quản lý trạng thái tối ưu",
+          "summary": "Xử lý trạng thái phức tạp dễ dàng với Redux và React Query.",
+          "description": "Kết hợp này giúp lấy dữ liệu, cache và quản lý trạng thái toàn cục hiệu quả, giúp ứng dụng nhanh và phản hồi tốt."
+        },
+        "i18n": {
+          "name": "Đa ngôn ngữ (i18n)",
+          "summary": "Mở rộng dự án ra toàn cầu với hỗ trợ i18n tích hợp.",
+          "description": "Dễ dàng bản địa hoá ứng dụng để nâng cao trải nghiệm người dùng và thu hút đa dạng đối tượng chỉ với vài bước cấu hình."
+        },
+        "cicd": {
+          "name": "Thiết lập CI/CD & kiểm thử mạnh mẽ",
+          "summary": "Tập trung phát triển, để pipeline GitHub Actions tự động kiểm thử, lint và kiểm tra triển khai.",
+          "description": "Tích hợp kiểm thử đơn vị, tích hợp và end-to-end cho nền tảng vững chắc."
+        },
+        "devEnv": {
+          "name": "Môi trường ưu tiên lập trình viên",
+          "summary": "Tận hưởng codebase sạch, dễ bảo trì với ESLint, Prettier và TypeScript.",
+          "description": "Starter tối ưu cho năng suất, gồm các thành phần UI tái sử dụng, hooks và kiến trúc module giúp phát triển nhanh, mở rộng dễ dàng."
+        }
+      }
+    },
+    "stack": {
+      "title": "Công nghệ sử dụng",
+      "overview": "Tổng quan",
+      "description": "Tăng tốc quá trình phát triển với bộ khởi động Next.js mạnh mẽ, giàu tính năng, được thiết kế cho tốc độ, khả năng mở rộng và năng suất lập trình viên. Đây là những điểm nổi bật:",
+      "features": {
+        "nextjs": {
+          "title": "Next.js",
+          "description": "Nhanh mặc định, cấu hình tối ưu cho hiệu suất."
+        },
+        "tailwind": {
+          "title": "Tailwind CSS",
+          "description": "Framework CSS tiện ích giúp xây dựng UI nhanh chóng."
+        },
+        "eslint": {
+          "title": "ESlint & Prettier",
+          "description": "Giúp code sạch, nhất quán và không lỗi."
+        },
+        "typescript": {
+          "title": "TypeScript nghiêm ngặt",
+          "description": "Sử dụng TypeScript để đảm bảo an toàn kiểu dữ liệu và phát triển ứng dụng vững chắc."
+        },
+        "testing": {
+          "title": "Jest & React Testing Library",
+          "description": "Kiểm thử đơn vị và tích hợp vững chắc."
+        },
+        "cypress": {
+          "title": "Cypress",
+          "description": "Sử dụng Cypress để đảm bảo trải nghiệm người dùng mượt mà qua quy trình kiểm thử hiệu quả."
+        },
+        "storybook": {
+          "title": "Storybook",
+          "description": "Tạo, kiểm thử và trình diễn các thành phần UI."
+        },
+        "git": {
+          "title": "Commit chuẩn",
+          "description": "Giữ lịch sử commit gọn gàng, dễ theo dõi."
+        },
+        "imports": {
+          "title": "Import tuyệt đối",
+          "description": "Không còn import lộn xộn."
+        },
+        "chakra": {
+          "title": "Chakra UI",
+          "description": "Thành phần UI headless cho tuỳ biến không giới hạn."
+        },
+        "cicd": {
+          "title": "Quy trình CI/CD tối ưu",
+          "description": "Tận dụng GitHub Actions để tự động hoá build, kiểm thử và triển khai chính xác, hiệu quả."
+        },
+        "redux": {
+          "title": "Quản lý trạng thái đơn giản",
+          "description": "Ứng dụng mạnh mẽ với Redux cho quản lý trạng thái dự đoán, dễ mở rộng."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Người dùng nói gì",
+      "description": "Lắng nghe chia sẻ từ các lập trình viên đã tăng tốc dự án với Next.js Starter Kit này."
+    }
+  },
+  "Header": {
+    "navigation": {
+      "home": "Trang chủ",
+      "features": "Tính năng",
+      "techStack": "Công nghệ"
+    }
+  },
+  "Footer": {
+    "copyright": "Bản quyền © {year} NextJS StarterKit. Đã đăng ký bản quyền.",
+    "title": "NextJS StarterKit",
+    "rights": "Đã đăng ký bản quyền.",
+    "github": "GitHub",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng"
+  },
+  "LanguageSwitcher": {
+    "selectLanguage": "Chọn ngôn ngữ (hiện tại: {current})"
+  },
+  "ThemeToggle": {
+    "toggleTheme": "Chuyển đổi giao diện"
+  },
+  "Components": {
+    "title": "Demo thành phần UI",
+    "description": "Khám phá các thành phần UI có thể tái sử dụng với bản xem trước và mẫu mã nguồn.",
+    "button": {
+      "title": "Nút bấm",
+      "description": "Các kiểu nút khác nhau cho từng hành động.",
+      "primary": "Nút chính",
+      "default": "Nút mặc định",
+      "danger": "Nút nguy hiểm",
+      "dashed": "Nút nét đứt",
+      "link": "Nút liên kết"
+    },
+    "alert": {
+      "title": "Thông báo",
+      "description": "Hiển thị thông điệp quan trọng với các loại thông báo khác nhau.",
+      "info": "Thông báo thông tin",
+      "warning": "Thông báo cảnh báo",
+      "success": "Thông báo thành công",
+      "error": "Thông báo lỗi",
+      "sampleDescription": "Đây là mô tả mẫu cho thông báo."
+    },
+    "card": {
+      "title": "Thẻ thông tin",
+      "description": "Hiển thị thông tin dưới dạng thẻ.",
+      "user": "Thẻ người dùng",
+      "text": "Dan là kỹ sư phần mềm làm việc với React.",
+      "comment": "Bình luận",
+      "share": "Chia sẻ"
+    },
+    "common": {
+      "showCode": "Xem mã nguồn",
+      "hideCode": "Ẩn mã nguồn"
+    }
+  },
+  "DynamicPage": {
+    "title":"Nút bấm",
+    "description":"Dễ dàng bản địa hoá ứng dụng để nâng cao trải nghiệm người dùng và thu hút đa dạng đối tượng chỉ với vài bước cấu hình."
+  }
+}
