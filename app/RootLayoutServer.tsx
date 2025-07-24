@@ -19,21 +19,32 @@ export async function generateMetadata(): Promise<Metadata> {
       description: seoConfig.openGraph.description,
       url: seoConfig.openGraph.url,
       type: seoConfig.openGraph.type as 'website',
+      siteName: seoConfig.openGraph.site_name,
+      images: seoConfig.openGraph.images,
+      locale: seoConfig.openGraph.locale,
     },
     viewport: 'width=device-width, initial-scale=1',
-    robots: 'index, follow',
+    robots: seoConfig.advancedSEO?.metaRobots || 'index, follow',
     alternates: {
-      canonical: seoConfig.url,
+      canonical: seoConfig.canonical || seoConfig.url,
+      languages: seoConfig.advancedSEO?.alternateLangs?.reduce(
+        (acc, lang) => {
+          acc[lang.hrefLang] = lang.href;
+          return acc;
+        },
+        {} as Record<string, string>,
+      ),
     },
-    authors: [{ name: 'aelabid' }],
-    keywords: [
-      'next.js',
-      'react',
-      'typescript',
-      'starter',
-      'boilerplate',
-      'nextjs starter',
-    ],
+    authors: [{ name: 'Meobeo.ai', url: seoConfig.url }],
+    keywords: seoConfig.keywords,
+    other: {
+      contact: seoConfig.contact?.email,
+      support: seoConfig.support?.email,
+      region: seoConfig.product?.region,
+      uiux: seoConfig.product?.uiux,
+      pricing: seoConfig.product?.pricing,
+      security: seoConfig.product?.security?.note,
+    },
   };
 }
 
