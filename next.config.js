@@ -1,5 +1,4 @@
 // next.config.js
-// eslint-disable-next-line @typescript-eslint/no-require-imports
 const createNextIntlPlugin = require('next-intl/plugin');
 const withNextIntl = createNextIntlPlugin();
 const path = require('path');
@@ -12,7 +11,6 @@ const nextConfig = {
   experimental: {
     turbo: {}, // Enables TurboPack for faster builds
   },
-  output: 'standalone',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,

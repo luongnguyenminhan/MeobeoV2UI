@@ -1,3 +1,6 @@
+
+# --- Builder ---
+
 # --- Builder ---
 FROM node:20-alpine AS builder
 WORKDIR /app
@@ -5,7 +8,6 @@ RUN corepack enable
 COPY package.json yarn.lock ./
 COPY . .
 RUN yarn install --frozen-lockfile && yarn build
-
 
 # --- Production ---
 FROM node:20-alpine AS runner
