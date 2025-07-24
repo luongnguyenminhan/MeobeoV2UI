@@ -11,6 +11,7 @@ RUN yarn install --frozen-lockfile && yarn build
 FROM node:20-alpine AS runner
 WORKDIR /app
 ENV NODE_ENV=production
+ENV PORT=3333
 
 # Copy standalone output
 COPY --from=builder /app/.next/standalone .
