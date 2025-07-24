@@ -104,6 +104,7 @@
         }
       }
     },
+    "installation": "Easy installation and setup instructions for your project.",
     "testimonials": {
       "title": "What Our Users Say",
       "description": "Hear from developers who have accelerated their projects with this Next.js Starter Kit."
@@ -162,6 +163,16 @@
     "common": {
       "showCode": "Show code",
       "hideCode": "Hide code"
+    }
+  },
+  "NotFound": {
+    "notFound": {
+      "title": "Page Not Found",
+      "description": "Sorry, the page you are looking for does not exist or has been moved.",
+      "goBack": "Go Back",
+      "goHome": "Go to Home",
+      "contactUs": "contact us",
+      "forSupport": "for support."
     }
   }
 }

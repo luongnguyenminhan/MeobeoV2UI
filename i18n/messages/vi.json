@@ -104,6 +104,7 @@
         }
       }
     },
+    "installation": "Hướng dẫn cài đặt và thiết lập dự án dễ dàng.",
     "testimonials": {
       "title": "Người dùng nói gì",
       "description": "Lắng nghe chia sẻ từ các lập trình viên đã tăng tốc dự án với Next.js Starter Kit này."
@@ -165,7 +166,17 @@
     }
   },
   "DynamicPage": {
-    "title":"Nút bấm",
-    "description":"Dễ dàng bản địa hoá ứng dụng để nâng cao trải nghiệm người dùng và thu hút đa dạng đối tượng chỉ với vài bước cấu hình."
+    "title": "Nút bấm",
+    "description": "Dễ dàng bản địa hoá ứng dụng để nâng cao trải nghiệm người dùng và thu hút đa dạng đối tượng chỉ với vài bước cấu hình."
+  },
+  "NotFound": {
+    "notFound": {
+      "title": "Không tìm thấy trang",
+      "description": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển.",
+      "goBack": "Quay lại",
+      "goHome": "Về trang chủ",
+      "contactUs": "liên hệ với chúng tôi",
+      "forSupport": "để được hỗ trợ."
+    }
   }
 }

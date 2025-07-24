@@ -11,6 +11,7 @@ const nextConfig = {
   experimental: {
     turbo: {}, // Enables TurboPack for faster builds
   },
+  output: 'standalone',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
