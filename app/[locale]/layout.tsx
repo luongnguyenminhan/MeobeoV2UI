@@ -4,7 +4,7 @@ import RootLayoutServer from '../RootLayoutServer';
 export const metadata: Metadata = {
   icons: {
     icon: [
-      { rel: 'icon', url: '/favicon.ico' },
+      { rel: 'icon', url: '/window.svg' },
       { rel: 'icon', url: '/favicon.svg', type: 'image/svg+xml' },
     ],
   },

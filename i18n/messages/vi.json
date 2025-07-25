@@ -125,33 +125,33 @@
       "ctaTitle": "Tại sao nên chọn Meobeo.ai?",
       "ctaButton": "Khám phá ngay",
       "benefits": [
-      "Tiết kiệm thời gian với ghi chép tự động",
-      "Không bỏ lỡ thông tin quan trọng từ cuộc họp",
-      "Phân tích cảm xúc và xu hướng trong nội dung",
-      "Phát hiện vấn đề và cơ hội từ dữ liệu cuộc họp"
+        "Tiết kiệm thời gian với ghi chép tự động",
+        "Không bỏ lỡ thông tin quan trọng từ cuộc họp",
+        "Phân tích cảm xúc và xu hướng trong nội dung",
+        "Phát hiện vấn đề và cơ hội từ dữ liệu cuộc họp"
       ],
       "items": [
-      {
-        "name": "Nguyễn Văn A",
-        "title": "Frontend Developer",
-        "review": "Meobeo.ai giúp tôi triển khai dự án nhanh hơn rất nhiều. Bộ starter rất dễ dùng và mở rộng."
-      },
-      {
-        "name": "Trần Thị B",
-        "title": "Fullstack Engineer",
-        "review": "Tôi đánh giá cao khả năng tích hợp i18n và Redux. UI đẹp, codebase sạch sẽ."
-      },
-      {
-        "name": "Lê Văn C",
-        "title": "Tech Lead",
-        "review": "Starter này tiết kiệm cho team tôi hàng tuần phát triển. Hỗ trợ tốt cho các dự án lớn."
-      },
-      {
-        "name": "Phạm Thị D",
-        "title": "Product Manager",
-        "review": "Tôi thích cách Meobeo.ai giúp quản lý cuộc họp và phân tích dữ liệu. Rất hữu ích!"
-      }
-    ]
+        {
+          "name": "Nguyễn Văn A",
+          "title": "Frontend Developer",
+          "review": "Meobeo.ai giúp tôi triển khai dự án nhanh hơn rất nhiều. Bộ starter rất dễ dùng và mở rộng."
+        },
+        {
+          "name": "Trần Thị B",
+          "title": "Fullstack Engineer",
+          "review": "Tôi đánh giá cao khả năng tích hợp i18n và Redux. UI đẹp, codebase sạch sẽ."
+        },
+        {
+          "name": "Lê Văn C",
+          "title": "Tech Lead",
+          "review": "Starter này tiết kiệm cho team tôi hàng tuần phát triển. Hỗ trợ tốt cho các dự án lớn."
+        },
+        {
+          "name": "Phạm Thị D",
+          "title": "Product Manager",
+          "review": "Tôi thích cách Meobeo.ai giúp quản lý cuộc họp và phân tích dữ liệu. Rất hữu ích!"
+        }
+      ]
     }
   },
   "Header": {
@@ -225,5 +225,20 @@
       "contactUs": "liên hệ với chúng tôi",
       "forSupport": "để được hỗ trợ."
     }
+  },
+  "AuthForm": {
+    "sideTitle": "Tìm lại chính mình",
+    "sideDescription": "Đăng nhập để truy cập vào Meobeo, trợ lý thông minh ghi chú cuộc họp của bạn.",
+    "welcome": "Chào Mừng Trở Lại",
+    "subtitle": "Vui lòng đăng nhập để tiếp tục",
+    "emailPlaceholder": "Nhập email của bạn",
+    "passwordPlaceholder": "Nhập mật khẩu của bạn",
+    "rememberMe": "Ghi nhớ đăng nhập",
+    "forgotPassword": "Quên mật khẩu?",
+    "loginButton": "Đăng Nhập",
+    "noAccount": "Chưa có tài khoản?",
+    "registerNow": "Đăng Ký Ngay",
+    "errorEmail": "Vui lòng nhập email.",
+    "errorPassword": "Vui lòng nhập mật khẩu."
   }
 }

@@ -12,6 +12,7 @@ import '@/styles/globals.css';
 import { Providers } from './providers';
 import Header from '@/components/layout/Header';
 import { LoaderWrapper } from '@/components/loading/Loader';
+import { usePathname } from 'next/navigation';
 
 export default function RootLayoutClient({
   children,
@@ -22,6 +23,7 @@ export default function RootLayoutClient({
   locale: string;
   messages: any;
 }) {
+  const hideHeader = usePathname().split('/').slice(2).join('/').startsWith('auth');
   return (
     <html
       lang={locale}
@@ -51,7 +53,7 @@ export default function RootLayoutClient({
                 timeZone="Asia/Bangkok"
               >
                 <LoaderWrapper>
-                  <Header />
+                  {!hideHeader && <Header />}
                   <main>{children}</main>
                 </LoaderWrapper>
               </NextIntlClientProvider>

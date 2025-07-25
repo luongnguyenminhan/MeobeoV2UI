@@ -225,5 +225,20 @@
       "contactUs": "contact us",
       "forSupport": "for support."
     }
+  },
+  "AuthForm": {
+    "sideTitle": "Find your true self",
+    "sideDescription": "Sign in to access Meobeo, your smart meeting note assistant.",
+    "welcome": "Welcome Back",
+    "subtitle": "Please sign in to continue",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Sign In",
+    "noAccount": "Don't have an account?",
+    "registerNow": "Register Now",
+    "errorEmail": "Please enter your email.",
+    "errorPassword": "Please enter your password."
   }
 }

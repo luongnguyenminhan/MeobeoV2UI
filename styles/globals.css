@@ -11,6 +11,12 @@ body {
   color: var(--text-color);
   transition: background 0.2s, color 0.2s;
 }
+/* Đặt trong styles/globals.css */
+.custom-placeholder::placeholder,
+.custom-placeholder input::placeholder {
+  color: var(--text-color) !important;
+  opacity: 0.8;
+}
 
 /* Light theme */
 :root {
