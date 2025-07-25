@@ -1,21 +1,15 @@
 'use client';
 
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
+import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaUserCircle } from 'react-icons/fa';
-import gsap from 'gsap';
 
 const HeroSection = ({ id }: { id: string }) => {
   const t = useTranslations('HomePage.hero');
   const sectionRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    if (sectionRef.current) {
-      gsap.from(sectionRef.current, { opacity: 0, y: 50, duration: 1 });
-    }
-  }, []);
 
   interface FeatureCardProps {
     title: string;
@@ -32,7 +26,11 @@ const HeroSection = ({ id }: { id: string }) => {
     imageAlt,
     className = '',
   }: FeatureCardProps) => (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
       className={`flex items-center p-4 rounded-xl w-fit max-w-[400px] max-h-[150px] bg-white ${className}`}
       style={{
         color: 'var(--text-color)',
@@ -56,20 +54,30 @@ const HeroSection = ({ id }: { id: string }) => {
           alt={imageAlt}
           width={2000}
           height={1500}
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
           className="w-[100%]"
         />
       </div>
-    </div>
+    </motion.div>
   );
 
   return (
-    <section
+    <motion.section
       ref={sectionRef}
       id={id}
       className="min-h-screen flex flex-col lg:flex-row justify-center items-center py-20 lg:py-32 bg-[var(--background-color)] text-[var(--text-color)] font-[var(--font-family-base)] px-20 md:gap-y-10"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
     >
       {/* Left content */}
-      <div className="lg:w-1/2 text-left space-y-6">
+      <motion.div
+        className="lg:w-1/2 text-left space-y-6"
+        initial={{ opacity: 0, x: -60 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.7, ease: 'easeOut' }}
+      >
         <h1 className="text-5xl sm:text-7xl font-medium tracking-tight font-sofia">
           {t('welcome')}{' '}
           <span className="relative whitespace-nowrap text-[var(--primary-color)]">
@@ -97,6 +105,7 @@ const HeroSection = ({ id }: { id: string }) => {
               alt="Chrome Web Store"
               width={1000}
               height={800}
+              style={{ objectFit: 'cover', objectPosition: 'center' }}
               className="w-[200px]"
             />
           </Link>
@@ -117,15 +126,16 @@ const HeroSection = ({ id }: { id: string }) => {
             </span>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Right image with overlay cards */}
       <div className="lg:w-1/2 mt-[100px] md:mt-[50px] lg:ml-[100px] lg:mt-0 relative flex justify-center">
         <Image
           src="/images/laptop.png"
           alt="Laptop"
-          width={1200}
-          height={1200}
+          width={1406}
+          height={840}
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
           className="w-[600px]"
         />
         <div className="absolute top-0 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
@@ -145,7 +155,7 @@ const HeroSection = ({ id }: { id: string }) => {
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

@@ -1,9 +1,9 @@
 'use client';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import gsap from 'gsap';
+
 
 function useTestimonialTranslations() {
   const t = useTranslations('HomePage.testimonials.items');
@@ -86,12 +86,6 @@ const TestimonialsSection = ({ id }: { id: string }) => {
   const t = useTranslations('HomePage.testimonials');
   const carouselRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    if (sectionRef.current) {
-      gsap.from(sectionRef.current, { opacity: 0, y: 50, duration: 1 });
-    }
-  }, []);
 
   const scroll = (dir: 'left' | 'right') => {
     if (!carouselRef.current) return;

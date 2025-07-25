@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 import Image from 'next/image';
+import { Button } from 'antd';
+import { useRouter } from 'next/navigation';
 
 const NAV_ITEMS = [
   { label: 'home', href: '#hero' },
@@ -15,7 +17,20 @@ const NAV_ITEMS = [
 
 const Header = () => {
   const t = useTranslations('Header.navigation');
+  const [isLandingPage, setIsLandingPage] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const router = useRouter();
+
+  React.useEffect(() => {
+    const isLanding =
+      window.location.pathname === '/' ||
+      /^\/[a-z]{2}(-[A-Z]{2})?$/.test(window.location.pathname);
+    setIsLandingPage(isLanding);
+  }, []);
+
+  const handleStartNow = () => {
+    router.push('/auth');
+  };
 
   return (
     <>
@@ -34,19 +49,27 @@ const Header = () => {
             </span>
           </Link>
           <nav className="hidden md:flex gap-8">
-            {NAV_ITEMS.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="text-[var(--muted-text-color)] hover:text-[var(--primary-color)] font-medium transition"
-              >
-                {t(item.label)}
-              </Link>
-            ))}
+            {isLandingPage &&
+              NAV_ITEMS.map((item) => (
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className="text-[var(--muted-text-color)] hover:text-[var(--primary-color)] font-medium transition"
+                >
+                  {t(item.label)}
+                </Link>
+              ))}
           </nav>
           <div className="flex items-center gap-3">
             <LanguageSwitcher />
             <ThemeToggle />
+            <Button
+              type="primary"
+              className="hidden md:inline-block"
+              onClick={handleStartNow}
+            >
+              {t('startNow')}
+            </Button>
             <button
               className="md:hidden p-2 rounded hover:bg-[var(--surface-color)]"
               onClick={() => setMobileOpen((v) => !v)}
@@ -76,7 +99,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-        {mobileOpen && (
+        {mobileOpen && isLandingPage && (
           <nav className="md:hidden bg-[var(--background-color)] px-4 pb-4">
             <ul className="flex flex-col gap-4">
               {NAV_ITEMS.map((item) => (
@@ -90,6 +113,18 @@ const Header = () => {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Button
+                  type="primary"
+                  block
+                  onClick={() => {
+                    setMobileOpen(false);
+                    handleStartNow();
+                  }}
+                >
+                  {t('startNow')}
+                </Button>
+              </li>
             </ul>
           </nav>
         )}

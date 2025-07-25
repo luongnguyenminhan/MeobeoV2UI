@@ -1,20 +1,14 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import FeatureCarousel from './FeatureCarousel';
-import gsap from 'gsap';
 
 export default function FeaturesSection({ id }: { id: string }) {
   const t = useTranslations('HomePage.features');
   const carouselRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
-    if (sectionRef.current) {
-      gsap.from(sectionRef.current, { opacity: 0, y: 50, duration: 1 });
-    }
-  }, []);
 
   const scroll = (dir: 'left' | 'right') => {
     if (!carouselRef.current) return;

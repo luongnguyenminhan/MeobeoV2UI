@@ -9,8 +9,9 @@ import { Provider } from 'react-redux';
 import store from '@/store/index';
 import 'antd/dist/reset.css';
 import '@/styles/globals.css';
-import { ThemeProvider } from '@/context/ThemeContext';
+import { Providers } from './providers';
 import Header from '@/components/layout/Header';
+import { LoaderWrapper } from '@/components/loading/Loader';
 
 export default function RootLayoutClient({
   children,
@@ -21,8 +22,6 @@ export default function RootLayoutClient({
   locale: string;
   messages: any;
 }) {
-  // Đảm bảo SSR luôn có className phù hợp theme (light/dark)
-  // ThemeProvider sẽ cập nhật lại nếu user chọn theme khác
   return (
     <html
       lang={locale}
@@ -31,8 +30,6 @@ export default function RootLayoutClient({
     >
       <head>
         {/* Preload CSS để tránh FART */}
-        <link rel="preload" href="/styles/globals.css" as="style" />
-        <link rel="stylesheet" href="/styles/globals.css" />
         <link
           rel="preload"
           href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
@@ -45,20 +42,22 @@ export default function RootLayoutClient({
         />
       </head>
       <body style={{ fontFamily: 'var(--font-family-base)' }}>
-        <ThemeProvider>
+        <Providers>
           <Provider store={store}>
             <ReactQueryProvider>
               <NextIntlClientProvider
                 locale={locale}
                 messages={messages}
-                timeZone="Europe/Paris"
+                timeZone="Asia/Bangkok"
               >
-                <Header />
-                <main>{children}</main>
+                <LoaderWrapper>
+                  <Header />
+                  <main>{children}</main>
+                </LoaderWrapper>
               </NextIntlClientProvider>
             </ReactQueryProvider>
           </Provider>
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   );

@@ -1,24 +1,17 @@
 'use client';
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import gsap from 'gsap';
 
 const FooterSection = ({ id }: { id: string }) => {
   const t = useTranslations('Footer');
   const footerRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
-    if (footerRef.current) {
-      gsap.from(footerRef.current, { opacity: 0, y: 50, duration: 1 });
-    }
-  }, []);
-
   return (
     <footer
       ref={footerRef}
       id={id}
-      className="relative w-screen left-1/2 right-1/2 -mx-[50vw] h-auto py-8 lg:py-16 bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] px-4 sm:px-6 lg:px-8"
+      className="relative w-full left-1/2 right-1/2 -mx-[50vw] h-auto py-8 lg:py-16 bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] px-4 sm:px-6 lg:px-8"
       style={{ color: 'var(--background-color)' }}
     >
       <div className="flex flex-col items-center">
