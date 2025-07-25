@@ -2,20 +2,52 @@
   "HomePage": {
     "title": "Xin chào thế giới!",
     "hero": {
-      "welcome": "Chào mừng đến với",
-      "title": "Next.js Starter",
-      "description": "Xây dựng nhanh hơn với bộ khởi động Next.js mạnh mẽ! Tích hợp các công cụ thiết yếu như quản lý trạng thái, React Query, I18n, CI/CD và các thành phần UI tuỳ chỉnh, đây là tất cả những gì bạn cần để bắt đầu dự án hiệu suất cao, dễ mở rộng một cách dễ dàng.",
+      "welcome": "Giải pháp toàn diện cho",
+      "title": "quản lý cuộc họp",
+      "description": "Tối ưu hóa quá trình họp với đầy đủ công cụ để ghi chép, phân tích và biến thông tin thành hành động",
       "buttons": {
-        "getStarted": "Bắt đầu",
+        "chromeStore": "Có mặt trên Chrome Web Store",
         "viewGithub": "Xem trên GitHub"
+      },
+      "users": "+50",
+      "userLabel": "người dùng đã tin tưởng sử dụng chúng tôi",
+      "brand": "Meobeo.ai",
+      "summaryCard": {
+        "title": "Tóm tắt cuộc họp",
+        "description": "Cô đọng, tóm tắt lại cuộc họp bằng AI trực tiếp & gián tiếp",
+        "imageAlt": "Icon tóm tắt"
+      },
+      "analyzeCard": {
+        "title": "Phân tích, tổng hợp",
+        "description": "Phân tích số lượng cuộc họp, thống kê hoạt động",
+        "imageAlt": "Icon phân tích"
       }
     },
     "features": {
       "title": {
-        "prefix": "Vì sao chọn",
-        "suffix": "Starter này?"
+        "prefix": "Các tính năng tuyệt vời cho một buổi họp ",
+        "suffix": "đầy sáng tạo"
       },
-      "description": "Tăng tốc quá trình phát triển với bộ khởi động Next.js mạnh mẽ, giàu tính năng, được thiết kế cho tốc độ, khả năng mở rộng và năng suất lập trình viên. Đây là những điểm nổi bật:",
+      "carousel": {
+        "features": [
+          {
+            "title": "Tự động tóm tắt",
+            "subtitle": "Cô đọng, tóm tắt lại cuộc họp bằng AI trực tiếp & gián tiếp"
+          },
+          {
+            "title": "Phân tích cuộc họp",
+            "subtitle": "Phân tích số lượng cuộc họp đã tham gia và thống kê"
+          },
+          {
+            "title": "Đồng bộ lịch",
+            "subtitle": "Đồng bộ qua lịch cá nhân, nắm bắt và nhắc nhở"
+          },
+          {
+            "title": "Quản lý nhóm",
+            "subtitle": "Thống kê, báo cáo cho nhóm nhiều hơn một cá nhân"
+          }
+        ]
+      },
       "items": {
         "openSource": {
           "name": "Miễn phí & Mã nguồn mở",
@@ -119,8 +151,8 @@
     "getStarted": "Thử ngay"
   },
   "Footer": {
-    "copyright": "Bản quyền © {year} NextJS StarterKit. Đã đăng ký bản quyền.",
-    "title": "NextJS StarterKit",
+    "copyright": "Bản quyền © {year} Meobeo.ai. Đã đăng ký bản quyền.",
+    "title": "Meobeo.ai",
     "rights": "Đã đăng ký bản quyền.",
     "github": "GitHub",
     "privacy": "Chính sách bảo mật",

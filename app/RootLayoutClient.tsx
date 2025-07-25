@@ -10,6 +10,7 @@ import store from '@/store/index';
 import 'antd/dist/reset.css';
 import '@/styles/globals.css';
 import { ThemeProvider } from '@/context/ThemeContext';
+import Header from '@/components/layout/Header';
 
 export default function RootLayoutClient({
   children,
@@ -40,6 +41,7 @@ export default function RootLayoutClient({
                 messages={messages}
                 timeZone="Europe/Paris"
               >
+                <Header />
                 <main>{children}</main>
               </NextIntlClientProvider>
             </ReactQueryProvider>

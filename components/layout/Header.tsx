@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
+import Image from 'next/image';
 
 const NAV_ITEMS = [
   { label: 'home', href: '#hero' },
@@ -20,12 +21,15 @@ const Header = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--background-color)] shadow font-[var(--font-family-base)]">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
           <Link href="/" className="flex items-center gap-2">
-            <span className="block md:hidden text-3xl font-bold text-[var(--text-color)] font-sofia">
-              NS
-            </span>
+            <Image
+              src="/images/logos/logo.png"
+              alt="Logo"
+              width={1000}
+              height={1000}
+              className="h-10 w-10 object-contain"
+            />
             <span className="hidden md:block text-2xl font-bold text-[var(--text-color)] font-sofia">
-              NS <span className="text-[var(--primary-color)]">NEXTJS</span>{' '}
-              STARTER KIT
+              Meobeo.ai
             </span>
           </Link>
           <nav className="hidden md:flex gap-8">

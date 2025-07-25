@@ -2,20 +2,52 @@
   "HomePage": {
     "title": "Hello world!",
     "hero": {
-      "welcome": "Welcome to",
-      "title": "Next.js Starter",
-      "description": "Build faster with our powerful Next.js starter! Packed with essential tools like state management, React Query, I18n, CI/CD, and customizable UI components, it's everything you need to kickstart scalable, high-performance projects effortlessly.",
+      "welcome": "A comprehensive solution for",
+      "title": "meeting management",
+      "description": "Optimize your meetings with all-in-one tools for note-taking, analysis, and turning information into action.",
       "buttons": {
-        "getStarted": "Get Started",
+        "chromeStore": "Available in the Chrome Web Store",
         "viewGithub": "View on GitHub"
+      },
+      "users": "+50",
+      "userLabel": "users trust us",
+      "brand": "Meobeo.ai",
+      "summaryCard": {
+        "title": "Meeting Summary",
+        "description": "Condense and summarize meetings with direct & indirect AI assistance.",
+        "imageAlt": "Summary icon"
+      },
+      "analyzeCard": {
+        "title": "Analysis & Synthesis",
+        "description": "Analyze meeting counts and activity statistics.",
+        "imageAlt": "Analysis icon"
       }
     },
     "features": {
       "title": {
-        "prefix": "Why Choose",
-        "suffix": "This Starter?"
+        "prefix": "Great features for a creative meeting ",
+        "suffix": "full of innovation"
       },
-      "description": "Boost your development process with a powerful, feature-rich Next.js starter designed for speed, scalability, and developer productivity. Here's what makes it stand out:",
+      "carousel": {
+        "features": [
+          {
+            "title": "Automatic Summarization",
+            "subtitle": "Condense and summarize meetings with direct & indirect AI assistance"
+          },
+          {
+            "title": "Meeting Analysis",
+            "subtitle": "Analyze meeting counts and statistics"
+          },
+          {
+            "title": "Calendar Sync",
+            "subtitle": "Sync with personal calendars, track and remind"
+          },
+          {
+            "title": "Group Management",
+            "subtitle": "Statistics and reporting for groups beyond individuals"
+          }
+        ]
+      },
       "items": {
         "openSource": {
           "name": "Free and Open-Source",
@@ -119,8 +151,8 @@
     "getStarted": "Get Started"
   },
   "Footer": {
-    "copyright": "Copyright © {year} NextJS StarterKit. All rights reserved.",
-    "title": "NextJS StarterKit",
+    "copyright": "Copyright © {year} Meobeo.ai. All rights reserved.",
+    "title": "Meobeo.ai",
     "rights": "All rights reserved.",
     "github": "GitHub",
     "privacy": "Privacy Policy",

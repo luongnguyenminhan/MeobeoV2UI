@@ -1,20 +1,58 @@
-'use client';
+"use client";
 
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import { FaGithub } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
+import { FaUserCircle } from 'react-icons/fa';
 
 const HeroSection = ({ id }: { id: string }) => {
   const t = useTranslations('HomePage.hero');
 
+  interface FeatureCardProps {
+    title: string;
+    description: string;
+    imageSrc: string;
+    imageAlt: string;
+    className?: string;
+  }
+
+  const FeatureCard = ({ title, description, imageSrc, imageAlt, className = '' }: FeatureCardProps) => (
+    <div
+      className={`flex items-center p-4 rounded-xl w-fit max-w-[400px] max-h-[150px] bg-white ${className}`}
+      style={{
+        color: 'var(--text-color)',
+        filter: 'drop-shadow(0 4px 4px var(--primary-color, #ff9800))',
+      }}
+    >
+      <div className="flex flex-col">
+        <h3 className="text-lg font-semibold" style={{ color: 'var(--primary-color)' }}>
+          {title}
+        </h3>
+        <p className="text-sm" style={{ color: '#444' }}>
+          {description}
+        </p>
+      </div>
+      <div className="ml-4">
+        <Image
+          src={imageSrc}
+          alt={imageAlt}
+          width={2000}
+          height={1500}
+          className="w-[100%]"
+        />
+      </div>
+    </div>
+  );
+
   return (
     <section
       id={id}
-      className="min-h-screen flex flex-col justify-center items-center text-center py-20 lg:py-32 px-4 bg-[var(--background-color)] text-[var(--text-color)] font-[var(--font-family-base)]"
+      className="min-h-screen flex flex-col lg:flex-row justify-center items-center py-20 lg:py-32 bg-[var(--background-color)] text-[var(--text-color)] font-[var(--font-family-base)] px-20 md:gap-y-10"
     >
-      <div className="max-w-4xl">
-        <h1 className="text-5xl sm:text-7xl font-medium tracking-tight mb-6 text-[var(--text-color)] font-sofia">
+      {/* Left content */}
+      <div className="lg:w-1/2 text-left space-y-6">
+        <h1 className="text-5xl sm:text-7xl font-medium tracking-tight font-sofia">
           {t('welcome')}{' '}
           <span className="relative whitespace-nowrap text-[var(--primary-color)]">
             <svg
@@ -28,21 +66,63 @@ const HeroSection = ({ id }: { id: string }) => {
             <span className="relative">{t('title')}</span>
           </span>
         </h1>
-
-        <p className="text-xl sm:text-2xl mt-6 max-w-2xl mx-auto tracking-tight text-[var(--muted-text-color)]">
+        <p className="text-xl sm:text-2xl tracking-tight text-[var(--muted-text-color)]">
           {t('description')}
         </p>
-
-        <div className="flex justify-center mt-10 space-x-4">
+        <div className="flex items-start flex-col space-x-4 space-y-8">
           <Link
-            href="https://github.com/aelabid/Next-StarterKit"
-            className="inline-flex items-center border border-[var(--border-color)] px-4 py-2 rounded-[var(--border-radius)] text-sm font-medium text-[var(--text-color)] hover:bg-[var(--surface-color)] transition"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            className="inline-flex items-center text-white rounded-md hover:opacity-90 transition"
           >
-            <FaGithub className="mr-2 text-[var(--text-color)]" />
-            {t('buttons.viewGithub')}
+            <Image 
+            src="/images/chrome-store.png" 
+            alt="Chrome Web Store" 
+            width={1000}
+            height={800} 
+            className='w-[200px]'
+            />
           </Link>
+          <div className="flex items-center">
+            <div className="flex -space-x-2">
+              {Array.from({ length: 4 }).map((_, i) => (
+                <FaUserCircle
+                  key={i}
+                  size={32}
+                  className="text-gray-400 bg-white rounded-full border-2 border-white"
+                />
+              ))}
+            </div>
+            <span className="ml-3 text-sm font-medium">
+              <span className="ml-1 text-gray-500">{t('users')} {t('userLabel')}</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Right image with overlay cards */}
+      <div className="lg:w-1/2 mt-[100px] md:mt-[50px] lg:ml-[100px] lg:mt-0 relative flex justify-center">
+        <Image
+          src="/images/laptop.png"
+          alt="Laptop"
+          width={1200}
+          height={1200}
+          className="w-[600px]"
+        />
+        <div className="absolute top-0 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
+          <FeatureCard
+            title={t('summaryCard.title')}
+            description={t('summaryCard.description')}
+            imageSrc="/images/summary-icon.png"
+            imageAlt={t('summaryCard.imageAlt')}
+          />
+        </div>
+        <div className="absolute bottom-0 right-1/4 transform translate-x-1/2 translate-y-1/2">
+          <FeatureCard
+            title={t('analyzeCard.title')}
+            description={t('analyzeCard.description')}
+            imageSrc="/images/analyze-icon.png"
+            imageAlt={t('analyzeCard.imageAlt')}
+          />
         </div>
       </div>
     </section>
