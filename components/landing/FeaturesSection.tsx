@@ -12,7 +12,8 @@ export default function FeaturesSection({ id }: { id: string }) {
     if (!carouselRef.current) return;
     const container = carouselRef.current;
     const firstCard = container.children[0];
-    const cardWidth = firstCard instanceof HTMLElement ? firstCard.offsetWidth : 400;
+    const cardWidth =
+      firstCard instanceof HTMLElement ? firstCard.offsetWidth : 400;
     const maxScroll = container.scrollWidth - container.clientWidth;
     const currentScroll = container.scrollLeft;
     if (dir === 'right') {

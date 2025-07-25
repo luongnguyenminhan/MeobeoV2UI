@@ -82,58 +82,40 @@
       }
     },
     "stack": {
-      "title": "Công nghệ sử dụng",
+      "catAlt": "Biểu tượng mèo",
+      "laptopAlt": "Laptop với Meobeo.ai",
+      "miniCatAlt": "Biểu tượng mèo nhỏ",
+      "chromeStoreAlt": "Chrome Web Store",
+      "bottom": {
+        "title": "Cài đặt dễ dàng, không tốn quá nhiều thời gian",
+        "strong": "Chờ gì mà không thử ngay!",
+        "desc": "Nhấn để cài đặt"
+      },
+      "title": "Làm việc thông minh hơn với Meobeo.ai",
       "overview": "Tổng quan",
       "description": "Tăng tốc quá trình phát triển với bộ khởi động Next.js mạnh mẽ, giàu tính năng, được thiết kế cho tốc độ, khả năng mở rộng và năng suất lập trình viên. Đây là những điểm nổi bật:",
-      "features": {
-        "nextjs": {
-          "title": "Next.js",
-          "description": "Nhanh mặc định, cấu hình tối ưu cho hiệu suất."
+      "timeline": [
+        {
+          "title": "Tải lên Transcript",
+          "desc": "Tải lên âm thanh hoặc văn bản từ cuộc họp của bạn"
         },
-        "tailwind": {
-          "title": "Tailwind CSS",
-          "description": "Framework CSS tiện ích giúp xây dựng UI nhanh chóng."
+        {
+          "title": "AI phân tích",
+          "desc": "Hệ thống phân tích nội dung và trích xuất thông tin chi tiết"
         },
-        "eslint": {
-          "title": "ESlint & Prettier",
-          "description": "Giúp code sạch, nhất quán và không lỗi."
-        },
-        "typescript": {
-          "title": "TypeScript nghiêm ngặt",
-          "description": "Sử dụng TypeScript để đảm bảo an toàn kiểu dữ liệu và phát triển ứng dụng vững chắc."
-        },
-        "testing": {
-          "title": "Jest & React Testing Library",
-          "description": "Kiểm thử đơn vị và tích hợp vững chắc."
-        },
-        "cypress": {
-          "title": "Cypress",
-          "description": "Sử dụng Cypress để đảm bảo trải nghiệm người dùng mượt mà qua quy trình kiểm thử hiệu quả."
-        },
-        "storybook": {
-          "title": "Storybook",
-          "description": "Tạo, kiểm thử và trình diễn các thành phần UI."
-        },
-        "git": {
-          "title": "Commit chuẩn",
-          "description": "Giữ lịch sử commit gọn gàng, dễ theo dõi."
-        },
-        "imports": {
-          "title": "Import tuyệt đối",
-          "description": "Không còn import lộn xộn."
-        },
-        "chakra": {
-          "title": "Chakra UI",
-          "description": "Thành phần UI headless cho tuỳ biến không giới hạn."
-        },
-        "cicd": {
-          "title": "Quy trình CI/CD tối ưu",
-          "description": "Tận dụng GitHub Actions để tự động hoá build, kiểm thử và triển khai chính xác, hiệu quả."
-        },
-        "redux": {
-          "title": "Quản lý trạng thái đơn giản",
-          "description": "Ứng dụng mạnh mẽ với Redux cho quản lý trạng thái dự đoán, dễ mở rộng."
+        {
+          "title": "Truy cập kết quả",
+          "desc": "Xem báo cáo, tóm tắt và điểm chính để hành động"
         }
+      ],
+      "benefits": {
+        "title": "Ưu điểm",
+        "items": [
+          "Extension hoạt động trên trình duyệt trực tiếp",
+          "Chia sẻ kết quả và ghi chú với đồng nghiệp một cách dễ dàng",
+          "Không bỏ lỡ bất kì sự kiện quan trọng nào trong cuộc họp",
+          "CMS hỗ trợ để theo dõi và phân tích nội dung"
+        ]
       }
     },
     "installation": "Hướng dẫn cài đặt và thiết lập dự án dễ dàng.",
