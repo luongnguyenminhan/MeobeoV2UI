@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { label: 'home', href: '#hero' },
   { label: 'features', href: '#features' },
   { label: 'techStack', href: '#stack' },
+  { label: 'testimonials', href: '#testimonials'}
 ];
 
 const Header = () => {
@@ -44,7 +45,6 @@ const Header = () => {
             ))}
           </nav>
           <div className="flex items-center gap-3">
-            {/* LanguageSwitcher and ThemeToggle placeholders */}
             <LanguageSwitcher />
             <ThemeToggle />
             <button

@@ -121,14 +121,45 @@
     "installation": "Hướng dẫn cài đặt và thiết lập dự án dễ dàng.",
     "testimonials": {
       "title": "Người dùng nói gì về Meobeo.ai",
-      "description": "Lắng nghe chia sẻ từ các lập trình viên đã tăng tốc dự án với Next.js Starter Kit này."
+      "description": "Lắng nghe chia sẻ từ các lập trình viên đã tăng tốc dự án với Next.js Starter Kit này.",
+      "ctaTitle": "Tại sao nên chọn Meobeo.ai?",
+      "ctaButton": "Khám phá ngay",
+      "benefits": {
+      "0": "Tiết kiệm thời gian phát triển dự án",
+      "1": "Tích hợp sẵn các công cụ hiện đại",
+      "2": "Hỗ trợ đa ngôn ngữ và quản lý trạng thái",
+      "3": "Cộng đồng lập trình viên năng động"
+      },
+      "items": {
+      "0": {
+        "name": "Nguyễn Văn A",
+        "title": "Frontend Developer",
+        "review": "Meobeo.ai giúp tôi triển khai dự án nhanh hơn rất nhiều. Bộ starter rất dễ dùng và mở rộng."
+      },
+      "1": {
+        "name": "Trần Thị B",
+        "title": "Fullstack Engineer",
+        "review": "Tôi đánh giá cao khả năng tích hợp i18n và Redux. UI đẹp, codebase sạch sẽ."
+      },
+      "2": {
+        "name": "Lê Văn C",
+        "title": "Tech Lead",
+        "review": "Starter này tiết kiệm cho team tôi hàng tuần phát triển. Hỗ trợ tốt cho các dự án lớn."
+      },
+      "3": {
+        "name": "Phạm Thị D",
+        "title": "Product Manager",
+        "review": "Tôi thích cách Meobeo.ai giúp quản lý cuộc họp và phân tích dữ liệu. Rất hữu ích!"
+      }
+      }
     }
   },
   "Header": {
     "navigation": {
       "home": "Trang chủ",
       "features": "Tính năng",
-      "techStack": "Công nghệ"
+      "techStack": "Công nghệ",
+      "testimonials": "Đánh giá"
     },
     "getStarted": "Thử ngay"
   },

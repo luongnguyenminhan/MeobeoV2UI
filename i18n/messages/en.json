@@ -1,139 +1,170 @@
 {
   "HomePage": {
-    "title": "Hello world!",
+    "title": "Hello, world!",
     "hero": {
       "welcome": "A comprehensive solution for",
       "title": "meeting management",
-      "description": "Optimize your meetings with all-in-one tools for note-taking, analysis, and turning information into action.",
+      "description": "Optimize meetings with full tools for note-taking, analysis, and turning information into action",
       "buttons": {
-        "chromeStore": "Available in the Chrome Web Store",
+        "chromeStore": "Available on Chrome Web Store",
         "viewGithub": "View on GitHub"
       },
       "users": "+50",
-      "userLabel": "users trust us",
+      "userLabel": "users have trusted us",
       "brand": "Meobeo.ai",
       "summaryCard": {
         "title": "Meeting Summary",
-        "description": "Condense and summarize meetings with direct & indirect AI assistance.",
+        "description": "Summarize meetings using real-time or post-meeting AI",
         "imageAlt": "Summary icon"
       },
       "analyzeCard": {
-        "title": "Analysis & Synthesis",
-        "description": "Analyze meeting counts and activity statistics.",
-        "imageAlt": "Analysis icon"
+        "title": "Analysis & Insights",
+        "description": "Analyze number of meetings and activity statistics",
+        "imageAlt": "Analytics icon"
       }
     },
     "features": {
       "title": {
-        "prefix": "Great features for a creative meeting ",
-        "suffix": "full of innovation"
+        "prefix": "Great features for a ",
+        "suffix": "creative meeting"
       },
       "carousel": {
         "features": [
           {
             "title": "Automatic Summarization",
-            "subtitle": "Condense and summarize meetings with direct & indirect AI assistance"
+            "subtitle": "Summarize meetings using real-time or post-meeting AI"
           },
           {
             "title": "Meeting Analysis",
-            "subtitle": "Analyze meeting counts and statistics"
+            "subtitle": "Analyze attended meetings and statistics"
           },
           {
             "title": "Calendar Sync",
-            "subtitle": "Sync with personal calendars, track and remind"
+            "subtitle": "Sync with personal calendar, stay informed and reminded"
           },
           {
             "title": "Group Management",
-            "subtitle": "Statistics and reporting for groups beyond individuals"
+            "subtitle": "Statistics and reports for groups beyond individuals"
           }
         ]
       },
       "items": {
         "openSource": {
-          "name": "Free and Open-Source",
-          "summary": "Build, customize, and innovate freely!",
-          "description": "Our Next.js starter is fully open-source, allowing you to contribute, adapt, and stay in sync with the latest industry standards—all without any cost."
+          "name": "Free & Open Source",
+          "summary": "Build, customize, and create freely!",
+          "description": "Our Next.js starter is fully open-source, allowing contributions, customization, and updates to the latest standards at no cost."
         },
         "devStack": {
           "name": "Modern Development Stack",
-          "summary": "Experience seamless development with Next.js, React, and TypeScript.",
-          "description": "Our starter is designed with scalability in mind, featuring React Query for data fetching, Redux for state management, and Tailwind CSS for rapid UI styling."
+          "summary": "Smooth dev experience with Next.js, React, and TypeScript.",
+          "description": "Designed for scalability, integrated with React Query for data fetching, Redux for state management, and Tailwind CSS for rapid UI building."
         },
         "stateManagement": {
           "name": "Optimized State Management",
-          "summary": "Handle complex state easily with Redux and React Query.",
-          "description": "This combination ensures efficient data fetching, caching, and global state management, making your applications fast and responsive."
+          "summary": "Easily handle complex state with Redux and React Query.",
+          "description": "This combo enables efficient data fetching, caching, and global state management for responsive and fast apps."
         },
         "i18n": {
-          "name": "Internationalization (i18n)",
-          "summary": "Expand your project's reach across the globe with built-in i18n support.",
-          "description": "Effortlessly localize your app to enhance user experience and attract a diverse audience with minimal setup."
+          "name": "Multilingual Support (i18n)",
+          "summary": "Global-ready with built-in i18n support.",
+          "description": "Easily localize the app to improve user experience and attract diverse audiences with minimal config."
         },
         "cicd": {
-          "name": "Robust CI/CD & Testing Setup",
-          "summary": "Focus on development while our GitHub Actions pipeline handles automated testing, linting, and deployment checks.",
-          "description": "Unit, integration, and end-to-end testing are integrated for a rock-solid foundation."
+          "name": "Robust CI/CD & Testing",
+          "summary": "Focus on development, let GitHub Actions handle automation.",
+          "description": "Includes unit, integration, and end-to-end testing for a solid platform."
         },
         "devEnv": {
-          "name": "Developer-First Environment",
-          "summary": "Enjoy a clean, maintainable codebase with tools like ESLint, Prettier, and TypeScript.",
-          "description": "Our starter is optimized for productivity, including reusable UI components, hooks, and a modular architecture designed for fast, scalable development."
+          "name": "Developer-Friendly Environment",
+          "summary": "Enjoy a clean, maintainable codebase with ESLint, Prettier, and TypeScript.",
+          "description": "Optimized starter includes reusable UI components, hooks, and modular architecture for fast and scalable development."
         }
       }
     },
     "stack": {
-      "catAlt": "Cat Mascot",
+      "catAlt": "Cat icon",
       "laptopAlt": "Laptop with Meobeo.ai",
-      "miniCatAlt": "Mini Cat Icon",
+      "miniCatAlt": "Small cat icon",
       "chromeStoreAlt": "Chrome Web Store",
       "bottom": {
         "title": "Easy installation, no time wasted",
-        "strong": "What are you waiting for?",
+        "strong": "Why not try it now!",
         "desc": "Click to install"
-        },
+      },
       "title": "Work smarter with Meobeo.ai",
       "overview": "Overview",
-      "description": "Boost your development process with a powerful, feature-rich Next.js starter designed for speed, scalability, and developer productivity. Here's what makes it stand out:",
+      "description": "Speed up your development with a powerful, feature-rich Next.js starter built for performance, scalability, and developer productivity. Highlights include:",
       "timeline": [
-      {
-        "title": "Upload Transcript",
-        "desc": "Upload audio or text from your meeting"
-      },
-      {
-        "title": "AI Analysis",
-        "desc": "The system analyzes content and extracts insights"
-      },
-      {
-        "title": "Access Results",
-        "desc": "View reports, summaries, and key points for action"
-      }
+        {
+          "title": "Upload Transcript",
+          "desc": "Upload your meeting audio or transcript"
+        },
+        {
+          "title": "AI Analysis",
+          "desc": "System analyzes the content and extracts insights"
+        },
+        {
+          "title": "Access Results",
+          "desc": "View reports, summaries, and key points for action"
+        }
       ],
       "benefits": {
-      "title": "Benefits",
-      "items": [
-        "Extension works directly in your browser",
-        "Easily share results and notes with colleagues",
-        "Never miss any important event in meetings",
-        "CMS support for tracking and analyzing content"
-      ]
+        "title": "Benefits",
+        "items": [
+          "Extension works directly in the browser",
+          "Easily share results and notes with colleagues",
+          "Never miss any important meeting event",
+          "Built-in CMS for tracking and analyzing content"
+        ]
       }
     },
-    "installation": "Easy installation and setup instructions for your project.",
+    "installation": "Easy project installation and setup guide.",
     "testimonials": {
-      "title": "What Our Users Say about Meobeo.ai",
-      "description": "Hear from developers who have accelerated their projects with this Next.js Starter Kit."
+      "title": "What users say about Meobeo.ai",
+      "description": "Hear from developers who’ve accelerated their projects using the Next.js Starter Kit.",
+      "ctaTitle": "Why choose Meobeo.ai?",
+      "ctaButton": "Explore now",
+      "benefits": {
+        "0": "Save development time",
+        "1": "Pre-integrated modern tools",
+        "2": "Multilingual and state management support",
+        "3": "Active developer community"
+      },
+      "items": {
+        "0": {
+          "name": "Nguyễn Văn A",
+          "title": "Frontend Developer",
+          "review": "Meobeo.ai helped me launch projects much faster. The starter is easy to use and extend."
+        },
+        "1": {
+          "name": "Trần Thị B",
+          "title": "Fullstack Engineer",
+          "review": "I highly value the i18n and Redux integration. Clean UI and codebase."
+        },
+        "2": {
+          "name": "Lê Văn C",
+          "title": "Tech Lead",
+          "review": "This starter saved my team weeks of development. Great for large-scale projects."
+        },
+        "3": {
+          "name": "Phạm Thị D",
+          "title": "Product Manager",
+          "review": "I love how Meobeo.ai helps manage meetings and analyze data. Very useful!"
+        }
+      }
     }
   },
   "Header": {
     "navigation": {
       "home": "Home",
       "features": "Features",
-      "techStack": "Tech Stack"
+      "techStack": "Tech Stack",
+      "testimonials": "Testimonials"
     },
     "getStarted": "Get Started"
   },
   "Footer": {
-    "copyright": "Copyright © {year} Meobeo.ai. All rights reserved.",
+    "copyright": "© {year} Meobeo.ai. All rights reserved.",
     "title": "Meobeo.ai",
     "rights": "All rights reserved.",
     "github": "GitHub",
@@ -147,8 +178,8 @@
     "toggleTheme": "Toggle theme"
   },
   "Components": {
-    "title": "UI Components Demo",
-    "description": "Explore reusable UI components with live preview and code samples.",
+    "title": "UI Component Demos",
+    "description": "Explore reusable UI components with previews and source samples.",
     "button": {
       "title": "Buttons",
       "description": "Various button styles for different actions.",
@@ -160,32 +191,36 @@
     },
     "alert": {
       "title": "Alerts",
-      "description": "Show important messages with different alert types.",
+      "description": "Show important messages with various alert types.",
       "info": "Info Alert",
       "warning": "Warning Alert",
       "success": "Success Alert",
       "error": "Error Alert",
-      "sampleDescription": "This is a sample alert description."
+      "sampleDescription": "This is a sample description for the alert."
     },
     "card": {
-      "title": "Cards",
-      "description": "Display information in a card layout.",
+      "title": "Info Cards",
+      "description": "Display information in card layout.",
       "user": "User Card",
-      "text": "Dan is a software engineer working on React.",
+      "text": "Dan is a software engineer working with React.",
       "comment": "Comment",
       "share": "Share"
     },
     "common": {
-      "showCode": "Show code",
-      "hideCode": "Hide code"
+      "showCode": "Show source code",
+      "hideCode": "Hide source code"
     }
+  },
+  "DynamicPage": {
+    "title": "Buttons",
+    "description": "Easily localize your app to improve user experience and attract diverse audiences with minimal configuration."
   },
   "NotFound": {
     "notFound": {
-      "title": "Page Not Found",
-      "description": "Sorry, the page you are looking for does not exist or has been moved.",
-      "goBack": "Go Back",
-      "goHome": "Go to Home",
+      "title": "Page not found",
+      "description": "Sorry, the page you’re looking for doesn’t exist or has been moved.",
+      "goBack": "Go back",
+      "goHome": "Go to homepage",
       "contactUs": "contact us",
       "forSupport": "for support."
     }
