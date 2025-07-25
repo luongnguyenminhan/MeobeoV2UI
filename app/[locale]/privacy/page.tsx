@@ -6,7 +6,9 @@ const App = () => {
     <div>
       <header className="bg-orange-600 text-white p-6 shadow-md">
         <div className="container mx-auto text-center">
-          <h1 className="text-3xl md:text-4xl font-bold">Chính sách bảo mật của Meobeo.ai</h1>
+          <h1 className="text-3xl md:text-4xl font-bold">
+            Chính sách bảo mật của Meobeo.ai
+          </h1>
         </div>
       </header>
       <main
@@ -52,10 +54,10 @@ const App = () => {
             1. Tóm tắt điều hành
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Chính sách Bảo mật này có hiệu lực từ ngày 1/6/2025. Chính
-            sách này áp dụng cho tất cả các dịch vụ của Meobeo.ai, bao gồm trang
-            web Meobeo.ai, các chức năng sản phẩm AI cốt lõi, các ứng dụng di
-            động (nếu có) và bất kỳ dịch vụ hoặc tính năng liên quan nào khác.
+            Chính sách Bảo mật này có hiệu lực từ ngày 1/6/2025. Chính sách này
+            áp dụng cho tất cả các dịch vụ của Meobeo.ai, bao gồm trang web
+            Meobeo.ai, các chức năng sản phẩm AI cốt lõi, các ứng dụng di động
+            (nếu có) và bất kỳ dịch vụ hoặc tính năng liên quan nào khác.
             Meobeo.ai cam kết bảo vệ quyền riêng tư và dữ liệu cá nhân của người
             dùng, đảm bảo rằng mọi thông tin cá nhân đều được sử dụng đúng như
             đã nêu trong chính sách này.
@@ -90,10 +92,10 @@ const App = () => {
             2. Giới thiệu Chính sách Bảo mật của Meobeo.ai
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Chính sách Bảo mật này có hiệu lực từ ngày 1/6/2025. Chính
-            sách này áp dụng cho tất cả các dịch vụ của Meobeo.ai, bao gồm trang
-            web Meobeo.ai, các chức năng sản phẩm AI cốt lõi, các ứng dụng di
-            động (nếu có) và bất kỳ dịch vụ hoặc tính năng liên quan nào khác.
+            Chính sách Bảo mật này có hiệu lực từ ngày 1/6/2025. Chính sách này
+            áp dụng cho tất cả các dịch vụ của Meobeo.ai, bao gồm trang web
+            Meobeo.ai, các chức năng sản phẩm AI cốt lõi, các ứng dụng di động
+            (nếu có) và bất kỳ dịch vụ hoặc tính năng liên quan nào khác.
             Meobeo.ai cam kết bảo vệ quyền riêng tư và dữ liệu cá nhân của người
             dùng, đảm bảo rằng mọi thông tin cá nhân đều được sử dụng đúng như
             đã nêu trong chính sách này.
@@ -223,30 +225,20 @@ const App = () => {
               các ứng viên (nếu có).
             </li>
             <li className="mb-2">
-              <strong>Dữ liệu sản phẩm AI cốt lõi:</strong> Điều quan trọng là
-              phần này bao gồm dữ liệu lịch, dữ liệu cuộc họp (ví dụ: âm thanh,
-              video, bản ghi văn bản) và các dữ liệu phái sinh từ đó (ví dụ: tóm
-              tắt do AI tạo ra, các mục hành động, phân tích cảm xúc, bản nháp
-              nội dung). Việc thu thập dữ liệu lịch và dữ liệu cuộc họp (có thể
-              bao gồm ghi âm giọng nói, nguồn cấp dữ liệu video và bản ghi văn
-              bản của các cuộc thảo luận) là vô cùng nhạy cảm. Dữ liệu này
-              thường chứa các <em>danh mục đặc biệt của dữ liệu cá nhân</em> (ví
-              dụ: thông tin sức khỏe, quan điểm chính trị, tín ngưỡng tôn giáo
-              nếu được thảo luận trong cuộc họp) hoặc thông tin kinh doanh có
-              tính bảo mật cao (ví dụ: bí mật thương mại, kế hoạch chiến lược).
-              Tính nhạy cảm vốn có này đòi hỏi phải có cơ sở pháp lý vững chắc
-              cho việc xử lý (ví dụ: sự đồng ý rõ ràng, sự cần thiết theo hợp
-              đồng hoặc lợi ích hợp pháp được cân bằng cẩn thận) và các biện
-              pháp bảo mật nghiêm ngặt. Đối với Meobeo.ai, chính sách phải trình
-              bày rõ ràng <em>những loại dữ liệu cuộc họp/lịch cụ thể nào</em>{' '}
-              được thu thập, <em>cách thức</em> chúng được thu thập (ví dụ: tích
-              hợp với các công cụ hội nghị cụ thể) và{' '}
-              <em>ai có quyền truy cập</em>. Điều này cũng ngụ ý một nhu cầu cấp
-              thiết về các cơ chế đồng ý rõ ràng, chi tiết để xử lý dữ liệu có
-              tính nhạy cảm cao và có thể là các Thỏa thuận Xử lý Dữ liệu (DPA)
-              với khách hàng doanh nghiệp, vì Meobeo.ai có thể đóng vai trò là
-              nhà xử lý dữ liệu. Chính sách cũng nên rõ ràng về rủi ro khi tiết
-              lộ thông tin nhạy cảm trong các tính năng công khai.
+              <strong>Dữ liệu sản phẩm AI cốt lõi:</strong> Meobeo.ai thu thập
+              dữ liệu lịch, dữ liệu cuộc họp (âm thanh, bản ghi văn bản) và các
+              dữ liệu phái sinh do AI tạo ra như tóm tắt, mục hành động, bản
+              nháp nội dung. Các loại dữ liệu này có thể chứa thông tin cá nhân
+              nhạy cảm nếu được đề cập trong cuộc họp hoặc lịch. Việc thu thập
+              và xử lý các dữ liệu này chỉ thực hiện khi có sự đồng ý rõ ràng
+              của người dùng, phục vụ cho các chức năng AI như phiên âm, tóm
+              tắt, phân tích nội dung. Dữ liệu được thu thập thông qua tích hợp
+              với các công cụ hội nghị hoặc lịch mà người dùng kết nối với
+              Meobeo.ai. Chỉ những nhân sự hoặc hệ thống được ủy quyền mới có
+              quyền truy cập dữ liệu này, và Meobeo.ai áp dụng các biện pháp bảo
+              mật nghiêm ngặt để bảo vệ dữ liệu. Nếu bạn cần làm rõ loại dữ liệu
+              nào được thu thập hoặc cách xử lý, vui lòng đặt câu hỏi để chúng
+              tôi trả lời cụ thể.
             </li>
           </ul>
 
@@ -261,15 +253,15 @@ const App = () => {
           <ul className="list-disc list-inside ml-4  text-[var(--text-color)]">
             <li className="mb-2">
               <strong>Dữ liệu thiết bị:</strong> Thông tin về thiết bị được sử
-              dụng để truy cập Dịch vụ (ví dụ: ID quảng cáo, vị trí chính xác,
-              hệ điều hành, loại trình duyệt, số nhận dạng thiết bị duy nhất).
+              dụng để truy cập Dịch vụ (ID quảng cáo, vị trí chính xác, hệ điều
+              hành, loại trình duyệt, số nhận dạng thiết bị duy nhất).
             </li>
             <li className="mb-2">
               <strong>Dữ liệu sử dụng:</strong> Dữ liệu về tương tác của người
-              dùng với Dịch vụ (ví dụ: các thuật ngữ tìm kiếm, các trang đã xem,
-              các tính năng đã sử dụng, thời gian sử dụng, tỷ lệ thoát, luồng
-              nhấp chuột). Dữ liệu này giúp Meobeo.ai hiểu hành vi người dùng và
-              cải thiện việc cung cấp dịch vụ.
+              dùng với Dịch vụ (Các thuật ngữ tìm kiếm, các trang đã xem, các
+              tính năng đã sử dụng, thời gian sử dụng, tỷ lệ thoát, luồng nhấp
+              chuột). Dữ liệu này giúp Meobeo.ai hiểu hành vi người dùng và cải
+              thiện việc cung cấp dịch vụ.
             </li>
             <li className="mb-2">
               <strong>Thông tin mạng/internet:</strong> URL của các trang giới
@@ -288,11 +280,10 @@ const App = () => {
           </h3>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
             Đây là thông tin mà người dùng tự nguyện công khai thông qua các
-            tính năng cộng tác (ví dụ: trò chuyện bằng giọng nói, video, văn
-            bản, diễn đàn, bảng tin, hồ sơ công khai, hình đại diện). Meobeo.ai
-            không có nghĩa vụ giữ bí mật thông tin như vậy và khuyên người dùng
-            nên thận trọng khi tiết lộ Thông tin cá nhân có thể nhận dạng hoặc
-            định vị họ.
+            tính năng cộng tác (hồ sơ công khai, hình đại diện). Meobeo.ai không
+            có nghĩa vụ giữ bí mật thông tin như vậy và khuyên người dùng nên
+            thận trọng khi tiết lộ Thông tin cá nhân có thể nhận dạng hoặc định
+            vị họ.
           </p>
 
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -324,9 +315,9 @@ const App = () => {
                   </td>
                   <td className="py-3 px-6 text-left">
                     Tên, Email, Thông tin hồ sơ, Thông tin thanh toán, Dữ liệu
-                    liên lạc, Dữ liệu lịch, Nội dung cuộc họp (âm thanh, video,
-                    văn bản), Các dữ liệu phái sinh do AI tạo ra (tóm tắt, mục
-                    hành động, bản nháp nội dung)
+                    liên lạc, Dữ liệu lịch, Nội dung cuộc họp (âm thanh, văn
+                    bản), Các dữ liệu phái sinh do AI tạo ra (tóm tắt, mục hành
+                    động, bản nháp nội dung)
                   </td>
                   <td className="py-3 px-6 text-left">
                     Trực tiếp từ người dùng khi đăng ký, sử dụng dịch vụ, liên
@@ -355,29 +346,13 @@ const App = () => {
                     cáo, cải thiện mô hình AI.
                   </td>
                 </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-6 text-left whitespace-nowrap">
-                    <strong>Thông tin bạn đăng công khai</strong>
-                  </td>
-                  <td className="py-3 px-6 text-left">
-                    Bình luận công khai, bài đăng diễn đàn, nội dung được chia
-                    sẻ công khai.
-                  </td>
-                  <td className="py-3 px-6 text-left">
-                    Do người dùng tự nguyện công khai thông qua các tính năng
-                    cộng tác.
-                  </td>
-                  <td className="py-3 px-6 text-left">
-                    Hỗ trợ tính năng cộng tác, hiển thị nội dung công khai.
-                  </td>
-                </tr>
               </tbody>
             </table>
           </div>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             5. Cách chúng tôi sử dụng Cookie và các công nghệ theo dõi khác
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -411,30 +386,30 @@ const App = () => {
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
             Đối với một sản phẩm AI, việc "cải thiện dịch vụ" mở rộng trực tiếp
             đến việc cải thiện <em>chính các mô hình AI</em>. Điều này có nghĩa
-            là dữ liệu được thu thập thông qua cookie (ví dụ: các mẫu tương tác
-            của người dùng với các tính năng AI cụ thể, tần suất sử dụng tính
-            năng, các loại truy vấn được thực hiện cho AI) có thể ngầm hoặc rõ
-            ràng góp phần vào việc tinh chỉnh mô hình AI, thuật toán cá nhân hóa
-            hoặc thậm chí là các nỗ lực phát hiện/giảm thiểu thiên vị. Đây là
-            một liên kết trực tiếp và cơ bản hơn giữa dữ liệu theo dõi và chức
-            năng AI cốt lõi so với một trang web thông thường không phải AI.
-            Chính sách này sẽ nêu rõ ràng nếu và cách thức dữ liệu theo dõi
-            (ngay cả khi được ẩn danh hoặc tổng hợp) đóng góp vào việc đào tạo
-            mô hình AI, cá nhân hóa hoặc nâng cao hiệu suất. Mức độ minh bạch
-            này là rất quan trọng để có được sự đồng ý có hiểu biết và quản lý
-            kỳ vọng của người dùng, đặc biệt nếu người dùng có lo ngại về cách
-            dấu chân kỹ thuật số của họ ảnh hưởng đến "trí thông minh" của AI.
+            là dữ liệu được thu thập thông qua cookie (các mẫu tương tác của
+            người dùng với các tính năng AI cụ thể, tần suất sử dụng tính năng,
+            các loại truy vấn được thực hiện cho AI) có thể ngầm hoặc rõ ràng
+            góp phần vào việc tinh chỉnh mô hình AI, thuật toán cá nhân hóa hoặc
+            thậm chí là các nỗ lực phát hiện/giảm thiểu thiên vị. Đây là một
+            liên kết trực tiếp và cơ bản hơn giữa dữ liệu theo dõi và chức năng
+            AI cốt lõi so với một trang web thông thường không phải AI. Chính
+            sách này sẽ nêu rõ ràng nếu và cách thức dữ liệu theo dõi (ngay cả
+            khi được ẩn danh hoặc tổng hợp) đóng góp vào việc đào tạo mô hình
+            AI, cá nhân hóa hoặc nâng cao hiệu suất. Mức độ minh bạch này là rất
+            quan trọng để có được sự đồng ý có hiểu biết và quản lý kỳ vọng của
+            người dùng, đặc biệt nếu người dùng có lo ngại về cách dấu chân kỹ
+            thuật số của họ ảnh hưởng đến "trí thông minh" của AI.
           </p>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
             Người dùng có quyền quản lý hoặc tắt một số công nghệ này thông qua
-            cài đặt trình duyệt hoặc các liên kết từ chối cụ thể (ví dụ: đối với
-            Google Analytics). Tuy nhiên, việc tắt các công nghệ này có thể ảnh
-            hưởng đến đầy đủ chức năng của trang web.
+            cài đặt trình duyệt hoặc các liên kết từ chối cụ thể. Tuy nhiên,
+            việc tắt các công nghệ này có thể ảnh hưởng đến đầy đủ chức năng của
+            trang web.
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             6. Cách chúng tôi sử dụng thông tin thu thập được
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -449,9 +424,9 @@ const App = () => {
             </li>
             <li className="mb-2">
               <strong>Chức năng sản phẩm AI:</strong> Xử lý các đầu vào của
-              người dùng (ví dụ: âm thanh cuộc họp, văn bản, mục lịch) để tạo ra
-              các đầu ra AI (ví dụ: tóm tắt, mục hành động, bản nháp nội dung,
-              phân tích cảm xúc). Đây là mục đích cốt lõi của một sản phẩm AI.
+              người dùng (âm thanh cuộc họp, văn bản, mục lịch) để tạo ra các
+              đầu ra AI (tóm tắt, mục hành động, bản nháp nội dung, phân tích
+              cảm xúc). Đây là mục đích cốt lõi của một sản phẩm AI.
             </li>
             <li className="mb-2">
               <strong>Cá nhân hóa trải nghiệm người dùng:</strong> Điều chỉnh
@@ -491,24 +466,24 @@ const App = () => {
                 các mô hình AI cơ bản
               </em>
               . Điều này có nghĩa là AI học hỏi từ các tương tác của người dùng,
-              nội dung mà nó xử lý (ví dụ: bản ghi cuộc họp) và phản hồi mà nó
-              nhận được. Việc học hỏi liên tục này là giá trị cốt lõi của nhiều
-              dịch vụ AI nhưng cũng đặt ra những ý nghĩa quan trọng về quyền
-              riêng tư. Ví dụ, nếu người dùng sửa một bản tóm tắt do AI tạo ra,
-              bản sửa đó có thể được sử dụng để cải thiện mô hình cho tất cả
-              người dùng. Chính sách này phải nêu rõ ràng rằng dữ liệu người
-              dùng (có thể được ẩn danh hoặc tổng hợp) được sử dụng để đào tạo
-              và cải thiện hiệu suất mô hình AI. Người dùng nên hiểu rõ ràng
-              liệu dữ liệu của họ có đóng góp vào "trí thông minh" của hệ thống
-              AI hay không. Mức độ chi tiết này là rất quan trọng để thực hiện
-              nguyên tắc minh bạch của GDPR và xây dựng lòng tin bằng cách giải
-              thích chức năng hoạt động cốt lõi của AI liên quan đến dữ liệu
-              người dùng. Nó cũng mở ra cơ hội cung cấp cho người dùng quyền
-              kiểm soát chi tiết về việc dữ liệu của họ có được sử dụng cho các
-              mục đích như vậy hay không, ví dụ, thông qua các cơ chế từ chối
-              đóng góp dữ liệu vào việc đào tạo mô hình chung, hoặc bằng cách
-              làm rõ rằng dữ liệu được sử dụng để đào tạo đã được ẩn danh/tổng
-              hợp để bảo vệ quyền riêng tư cá nhân.
+              nội dung mà nó xử lý ( bản ghi cuộc họp) và phản hồi mà nó nhận
+              được. Việc học hỏi liên tục này là giá trị cốt lõi của nhiều dịch
+              vụ AI nhưng cũng đặt ra những ý nghĩa quan trọng về quyền riêng
+              tư. Ví dụ, nếu người dùng sửa một bản tóm tắt do AI tạo ra, bản
+              sửa đó có thể được sử dụng để cải thiện mô hình cho tất cả người
+              dùng. Chính sách này phải nêu rõ ràng rằng dữ liệu người dùng (có
+              thể được ẩn danh hoặc tổng hợp) được sử dụng để đào tạo và cải
+              thiện hiệu suất mô hình AI. Người dùng nên hiểu rõ ràng liệu dữ
+              liệu của họ có đóng góp vào "trí thông minh" của hệ thống AI hay
+              không. Mức độ chi tiết này là rất quan trọng để thực hiện nguyên
+              tắc minh bạch của GDPR và xây dựng lòng tin bằng cách giải thích
+              chức năng hoạt động cốt lõi của AI liên quan đến dữ liệu người
+              dùng. Nó cũng mở ra cơ hội cung cấp cho người dùng quyền kiểm soát
+              chi tiết về việc dữ liệu của họ có được sử dụng cho các mục đích
+              như vậy hay không, ví dụ, thông qua các cơ chế từ chối đóng góp dữ
+              liệu vào việc đào tạo mô hình chung, hoặc bằng cách làm rõ rằng dữ
+              liệu được sử dụng để đào tạo đã được ẩn danh/tổng hợp để bảo vệ
+              quyền riêng tư cá nhân.
             </li>
             <li className="mb-2">
               <strong>Tiếp thị và quảng cáo:</strong> Sử dụng thông tin nhân
@@ -516,16 +491,15 @@ const App = () => {
               tiếp thị có liên quan.
             </li>
             <li className="mb-2">
-              <strong>Cơ sở pháp lý để xử lý:</strong> Nơi áp dụng (ví dụ: theo
-              GDPR), chỉ rõ cơ sở pháp lý để xử lý thông tin cá nhân (ví dụ: sự
-              đồng ý, sự cần thiết theo hợp đồng, lợi ích hợp pháp, nghĩa vụ
-              pháp lý).
+              <strong>Cơ sở pháp lý để xử lý:</strong> Nơi áp dụng (theo GDPR),
+              chỉ rõ cơ sở pháp lý để xử lý thông tin cá nhân (sự đồng ý, sự cần
+              thiết theo hợp đồng, lợi ích hợp pháp, nghĩa vụ pháp lý).
             </li>
           </ul>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             7. Cách chúng tôi chia sẻ thông tin của bạn
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -539,41 +513,40 @@ const App = () => {
           </h3>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
             Meobeo.ai chia sẻ thông tin với các nhà cung cấp dịch vụ bên thứ ba
-            đáng tin cậy thực hiện các dịch vụ thay mặt cho Meobeo.ai (ví dụ: bộ
-            xử lý thanh toán, lưu trữ web, lưu trữ dữ liệu, dịch vụ điện toán
-            đám mây, hỗ trợ phát triển, công cụ hỗ trợ khách hàng, nhà cung cấp
-            phân tích). Điều quan trọng là điều này bao gồm các nhà cung cấp mô
-            hình AI bên thứ ba hoặc các dịch vụ xử lý AI chuyên biệt nếu
-            Meobeo.ai tận dụng các API hoặc cơ sở hạ tầng AI bên ngoài. Các nhà
-            cung cấp này bị ràng buộc theo hợp đồng để bảo vệ dữ liệu và chỉ sử
-            dụng dữ liệu cho các mục đích được Meobeo.ai chỉ định, và các Thỏa
-            thuận Xử lý Dữ liệu (DPA) được áp dụng. Đối với một sản phẩm AI,
-            danh mục "nhà cung cấp dịch vụ" đặc biệt quan trọng vì nó có thể bao
-            gồm các nhà cung cấp mô hình AI bên thứ ba hoặc các nhà cung cấp xử
-            lý dữ liệu chuyên biệt. Nhiều sản phẩm AI tận dụng các mô hình AI
-            của bên thứ ba (ví dụ: các mô hình ngôn ngữ lớn từ OpenAI, Google,
-            Anthropic) hoặc các dịch vụ đám mây chuyên biệt được tối ưu hóa cho
-            việc xử lý AI. Nếu Meobeo.ai sử dụng các dịch vụ như vậy, các bên
-            thứ ba này sẽ xử lý dữ liệu người dùng có tính nhạy cảm cao (ví dụ:
-            bản ghi cuộc họp, đầu vào của người dùng) mà Meobeo.ai thu thập.
-            Điều này làm tăng đáng kể mức độ rủi ro, vì dữ liệu nằm ngoài sự
-            kiểm soát trực tiếp của Meobeo.ai, ngay cả khi chỉ để xử lý. Chính
-            sách phải nêu rõ ràng nếu các nhà cung cấp mô hình AI bên thứ ba
-            hoặc các dịch vụ xử lý AI được sử dụng và làm rõ vai trò của họ (ví
-            dụ: là nhà xử lý dữ liệu). Cam kết về các DPA nghiêm ngặt trở nên
-            tối quan trọng, đảm bảo rằng các bên thứ ba này tuân thủ các tiêu
-            chuẩn bảo mật, biện pháp bảo mật và nghĩa vụ pháp lý của Meobeo.ai
-            (ví dụ: Điều 28 GDPR).
+            đáng tin cậy thực hiện các dịch vụ thay mặt cho Meobeo.ai (bộ xử lý
+            thanh toán, lưu trữ web, lưu trữ dữ liệu, dịch vụ điện toán đám mây,
+            hỗ trợ phát triển, công cụ hỗ trợ khách hàng, nhà cung cấp phân
+            tích). Điều quan trọng là điều này bao gồm các nhà cung cấp mô hình
+            AI bên thứ ba hoặc các dịch vụ xử lý AI chuyên biệt nếu Meobeo.ai
+            tận dụng các API hoặc cơ sở hạ tầng AI bên ngoài. Các nhà cung cấp
+            này bị ràng buộc theo hợp đồng để bảo vệ dữ liệu và chỉ sử dụng dữ
+            liệu cho các mục đích được Meobeo.ai chỉ định, và các Thỏa thuận Xử
+            lý Dữ liệu (DPA) được áp dụng. Đối với một sản phẩm AI, danh mục
+            "nhà cung cấp dịch vụ" đặc biệt quan trọng vì nó có thể bao gồm các
+            nhà cung cấp mô hình AI bên thứ ba hoặc các nhà cung cấp xử lý dữ
+            liệu chuyên biệt. Nhiều sản phẩm AI tận dụng các mô hình AI của bên
+            thứ ba (các mô hình ngôn ngữ lớn từ Google) hoặc các dịch vụ đám mây
+            chuyên biệt được tối ưu hóa cho việc xử lý AI. Nếu Meobeo.ai sử dụng
+            các dịch vụ như vậy, các bên thứ ba này sẽ xử lý dữ liệu người dùng
+            có tính nhạy cảm cao (bản ghi cuộc họp, đầu vào của người dùng) mà
+            Meobeo.ai thu thập. Điều này làm tăng đáng kể mức độ rủi ro, vì dữ
+            liệu nằm ngoài sự kiểm soát trực tiếp của Meobeo.ai, ngay cả khi chỉ
+            để xử lý. Chính sách phải nêu rõ ràng nếu các nhà cung cấp mô hình
+            AI bên thứ ba hoặc các dịch vụ xử lý AI được sử dụng và làm rõ vai
+            trò của họ (ví dụ: là nhà xử lý dữ liệu). Cam kết về các DPA nghiêm
+            ngặt trở nên tối quan trọng, đảm bảo rằng các bên thứ ba này tuân
+            thủ các tiêu chuẩn bảo mật, biện pháp bảo mật và nghĩa vụ pháp lý
+            của Meobeo.ai (Điều 28 GDPR).
           </p>
 
           <h3 className="text-2xl font-semibold text-orange-400 mb-3 mt-6">
             Vì lý do pháp lý
           </h3>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Thông tin có thể được tiết lộ cho các cơ quan công quyền (ví dụ: cơ
-            quan thực thi pháp luật, tòa án, cơ quan chính phủ) nếu được yêu cầu
-            hợp pháp, để đáp ứng trát đòi hầu tòa hoặc lệnh của tòa án, hoặc để
-            bảo vệ quyền, tài sản hoặc sự an toàn của Meobeo.ai, người dùng hoặc
+            Thông tin có thể được tiết lộ cho các cơ quan công quyền (cơ quan
+            thực thi pháp luật, tòa án, cơ quan chính phủ) nếu được yêu cầu hợp
+            pháp, để đáp ứng trát đòi hầu tòa hoặc lệnh của tòa án, hoặc để bảo
+            vệ quyền, tài sản hoặc sự an toàn của Meobeo.ai, người dùng hoặc
             công chúng.
           </p>
 
@@ -651,7 +624,7 @@ const App = () => {
                   </td>
                   <td className="py-3 px-6 text-left">
                     Dữ liệu tài khoản, dữ liệu sử dụng, dữ liệu thanh toán,{' '}
-                    <em>dữ liệu đầu vào AI (ví dụ: bản ghi cuộc họp)</em>.
+                    <em>dữ liệu đầu vào AI (bản ghi cuộc họp)</em>.
                   </td>
                   <td className="py-3 px-6 text-left">
                     Hợp đồng nghiêm ngặt, Thỏa thuận Xử lý Dữ liệu (DPA), tuân
@@ -700,7 +673,7 @@ const App = () => {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             8. Các cân nhắc cụ thể về xử lý dữ liệu sản phẩm AI của Meobeo.ai
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -713,11 +686,11 @@ const App = () => {
             Cách AI xử lý dữ liệu người dùng
           </h3>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            AI của Meobeo.ai xử lý các đầu vào của người dùng (ví dụ: âm thanh
-            cuộc họp, văn bản, mục nhập lịch) để thực hiện các chức năng cốt lõi
-            của nó (ví dụ: phiên âm, tóm tắt, tạo nội dung, phân tích cảm xúc).
-            Việc xử lý này có thể liên quan đến xử lý ngôn ngữ tự nhiên (NLP),
-            học máy và các kỹ thuật AI khác.
+            AI của Meobeo.ai xử lý các đầu vào của người dùng ( âm thanh cuộc
+            họp, văn bản, mục nhập lịch) để thực hiện các chức năng cốt lõi của
+            nó (phiên âm, tóm tắt, tạo nội dung, phân tích cảm xúc). Việc xử lý
+            này có thể liên quan đến xử lý ngôn ngữ tự nhiên (NLP), học máy và
+            các kỹ thuật AI khác.
           </p>
 
           <h3 className="text-2xl font-semibold text-orange-400 mb-3 mt-6">
@@ -727,8 +700,8 @@ const App = () => {
             Meobeo.ai cung cấp các cơ chế để người dùng quản lý, sửa đổi hoặc
             xóa các đầu vào dữ liệu thô và đầu ra do AI tạo ra. Người dùng có
             các tùy chọn để từ chối việc dữ liệu của họ được sử dụng để cải
-            thiện mô hình AI chung (ví dụ: bằng cách đóng góp vào các bộ dữ liệu
-            đào tạo ẩn danh).
+            thiện mô hình AI chung (bằng cách đóng góp vào các bộ dữ liệu đào
+            tạo ẩn danh).
           </p>
 
           <h3 className="text-2xl font-semibold text-orange-400 mb-3 mt-6">
@@ -748,9 +721,9 @@ const App = () => {
             vào các đầu ra của nó. Các sản phẩm AI, đặc biệt là những sản phẩm
             xử lý nội dung do người dùng tạo (như bản ghi cuộc họp, đầu vào văn
             bản để tạo nội dung), có thể tạo ra các đầu ra không chính xác,
-            thiên vị hoặc thậm chí vi phạm quyền của bên thứ ba (ví dụ: bản
-            quyền, phỉ báng). Nhà cung cấp AI (Meobeo.ai) không thể kiểm soát
-            hoàn toàn <em>đầu vào</em> do người dùng cung cấp hoặc đảm bảo{' '}
+            thiên vị hoặc thậm chí vi phạm quyền của bên thứ ba (bản quyền, phỉ
+            báng). Nhà cung cấp AI (Meobeo.ai) không thể kiểm soát hoàn toàn{' '}
+            <em>đầu vào</em> do người dùng cung cấp hoặc đảm bảo{' '}
             <em>độ chính xác tuyệt đối hoặc sự phù hợp</em> của việc diễn giải
             hoặc đầu ra của AI. Điều khoản này nhằm quản lý các rủi ro vốn có
             liên quan đến bản chất xác suất của AI, nguyên tắc "rác vào, rác ra"
@@ -765,28 +738,28 @@ const App = () => {
             Nếu Meobeo.ai cung cấp các cấp độ cao cấp hoặc dịch vụ đám mây
             riêng, chính sách sẽ giải thích cách các dịch vụ này cung cấp khả
             năng cách ly dữ liệu và bảo mật nâng cao cho khách hàng yêu cầu tuân
-            thủ nghiêm ngặt (ví dụ: để xử lý Thông tin sức khỏe được bảo vệ
-            (PHI) hoặc dữ liệu doanh nghiệp có tính bảo mật cao). Việc cung cấp
-            "dịch vụ đám mây riêng cho khách hàng yêu cầu cách ly dữ liệu nghiêm
-            ngặt" cho thấy một dịch vụ quyền riêng tư theo cấp độ, giải quyết
-            một cách chiến lược các nhu cầu tuân thủ và chủ quyền dữ liệu ở cấp
-            doanh nghiệp. Điều này cho thấy một nhu cầu thị trường đáng kể đối
-            với các mức độ riêng tư và cách ly dữ liệu cao hơn, đặc biệt từ các
-            ngành được quản lý (ví dụ: chăm sóc sức khỏe, tài chính, pháp lý)
-            hoặc các doanh nghiệp lớn có các yêu cầu tuân thủ nội bộ nghiêm ngặt
-            (ví dụ: nơi cư trú dữ liệu, kiểm soát truy cập nghiêm ngặt). Nếu
-            Meobeo.ai có ý định nhắm mục tiêu đến các khách hàng doanh nghiệp
-            hoặc hoạt động trong các lĩnh vực được quản lý chặt chẽ, việc cung
-            cấp một dịch vụ như vậy không chỉ là một tính năng bảo mật mà còn là
-            một yếu tố khác biệt hóa kinh doanh chiến lược và là yếu tố hỗ trợ.
-            Chính sách nên nêu rõ cách dữ liệu được xử lý khác nhau trong các
-            môi trường cách ly như vậy so với dịch vụ tiêu chuẩn, nhấn mạnh các
-            biện pháp bảo vệ bổ sung.
+            thủ nghiêm ngặt (để xử lý Thông tin sức khỏe được bảo vệ (PHI) hoặc
+            dữ liệu doanh nghiệp có tính bảo mật cao). Việc cung cấp "dịch vụ
+            đám mây riêng cho khách hàng yêu cầu cách ly dữ liệu nghiêm ngặt"
+            cho thấy một dịch vụ quyền riêng tư theo cấp độ, giải quyết một cách
+            chiến lược các nhu cầu tuân thủ và chủ quyền dữ liệu ở cấp doanh
+            nghiệp. Điều này cho thấy một nhu cầu thị trường đáng kể đối với các
+            mức độ riêng tư và cách ly dữ liệu cao hơn, đặc biệt từ các ngành
+            được quản lý (chăm sóc sức khỏe, tài chính, pháp lý) hoặc các doanh
+            nghiệp lớn có các yêu cầu tuân thủ nội bộ nghiêm ngặt (nơi cư trú dữ
+            liệu, kiểm soát truy cập nghiêm ngặt). Nếu Meobeo.ai có ý định nhắm
+            mục tiêu đến các khách hàng doanh nghiệp hoặc hoạt động trong các
+            lĩnh vực được quản lý chặt chẽ, việc cung cấp một dịch vụ như vậy
+            không chỉ là một tính năng bảo mật mà còn là một yếu tố khác biệt
+            hóa kinh doanh chiến lược và là yếu tố hỗ trợ. Chính sách nên nêu rõ
+            cách dữ liệu được xử lý khác nhau trong các môi trường cách ly như
+            vậy so với dịch vụ tiêu chuẩn, nhấn mạnh các biện pháp bảo vệ bổ
+            sung.
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             9. Bảo mật dữ liệu
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -796,12 +769,12 @@ const App = () => {
           </p>
           <ul className="list-disc list-inside ml-4  text-[var(--text-color)]">
             <li className="mb-2">
-              Các công nghệ và quy trình bảo mật theo tiêu chuẩn ngành (ví dụ:
-              mã hóa dữ liệu khi lưu trữ và truyền tải).
+              Các công nghệ và quy trình bảo mật theo tiêu chuẩn ngành (mã hóa
+              dữ liệu khi lưu trữ và truyền tải).
             </li>
             <li className="mb-2">
-              Kiểm soát truy cập (ví dụ: truy cập dựa trên vai trò, đặc quyền
-              tối thiểu).
+              Kiểm soát truy cập (truy cập dựa trên vai trò, đặc quyền tối
+              thiểu).
             </li>
             <li className="mb-2">
               Kiểm toán bảo mật và đánh giá lỗ hổng thường xuyên.
@@ -811,9 +784,8 @@ const App = () => {
               nhất.
             </li>
             <li className="mb-2">
-              Các biện pháp cụ thể cho dữ liệu AI (ví dụ: ẩn danh hóa/giả danh
-              hóa dữ liệu để đào tạo mô hình, xử lý an toàn các đầu vào nhạy
-              cảm).
+              Các biện pháp cụ thể cho dữ liệu AI (ẩn danh hóa/giả danh hóa dữ
+              liệu để đào tạo mô hình, xử lý an toàn các đầu vào nhạy cảm).
             </li>
           </ul>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -827,18 +799,18 @@ const App = () => {
             những người trong các ngành được quản lý) sẽ muốn biết về các biện
             pháp cụ thể giải quyết các thách thức bảo mật độc đáo của việc xử lý
             dữ liệu AI. Điều này bao gồm cách dữ liệu được bảo mật{' '}
-            <em>trong quá trình</em> xử lý AI (ví dụ: trong bộ nhớ, trong các
-            cuộc gọi API), liệu các đầu vào dữ liệu có được ẩn danh hoặc giả
-            danh hóa trước khi được sử dụng để đào tạo mô hình AI chung hay
-            không, và liệu có các kiểm soát truy cập nghiêm ngặt đối với nhân
-            viên có thể cần truy cập dữ liệu thô để gỡ lỗi, đảm bảo chất lượng
-            hoặc các nỗ lực cải thiện mô hình cụ thể hay không. Việc cung cấp
-            các chi tiết cụ thể hơn (nhưng vẫn ở cấp cao) về các biện pháp bảo
-            mật được điều chỉnh cho việc xử lý dữ liệu AI sẽ xây dựng niềm tin
-            và sự tự tin lớn hơn. Nó chứng minh rằng Meobeo.ai hiểu các thách
-            thức bảo mật độc đáo do AI đặt ra và đã thực hiện các biện pháp mục
-            tiêu, phù hợp với các nguyên tắc như "bảo mật theo thiết kế" và
-            "quyền riêng tư theo thiết kế".
+            <em>trong quá trình</em> xử lý AI (trong bộ nhớ, trong các cuộc gọi
+            API), liệu các đầu vào dữ liệu có được ẩn danh hoặc giả danh hóa
+            trước khi được sử dụng để đào tạo mô hình AI chung hay không, và
+            liệu có các kiểm soát truy cập nghiêm ngặt đối với nhân viên có thể
+            cần truy cập dữ liệu thô để gỡ lỗi, đảm bảo chất lượng hoặc các nỗ
+            lực cải thiện mô hình cụ thể hay không. Việc cung cấp các chi tiết
+            cụ thể hơn (nhưng vẫn ở cấp cao) về các biện pháp bảo mật được điều
+            chỉnh cho việc xử lý dữ liệu AI sẽ xây dựng niềm tin và sự tự tin
+            lớn hơn. Nó chứng minh rằng Meobeo.ai hiểu các thách thức bảo mật
+            độc đáo do AI đặt ra và đã thực hiện các biện pháp mục tiêu, phù hợp
+            với các nguyên tắc như "bảo mật theo thiết kế" và "quyền riêng tư
+            theo thiết kế".
           </p>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
             Meobeo.ai thừa nhận rằng không có phương pháp truyền dữ liệu qua
@@ -850,7 +822,7 @@ const App = () => {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             10. Quyền và lựa chọn về quyền riêng tư của bạn
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -894,19 +866,19 @@ const App = () => {
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
             Đối với một sản phẩm AI, "quyền xóa" và "quyền phản đối xử lý" đặc
             biệt phức tạp khi dữ liệu đã được sử dụng để đào tạo mô hình AI. Nếu
-            dữ liệu của người dùng (ví dụ: bản ghi cuộc họp, đầu vào cụ thể) đã
-            được sử dụng để đào tạo hoặc tinh chỉnh một mô hình AI nền tảng,
-            việc thực sự "xóa" dữ liệu đó khỏi các tham số đã học của mô hình
-            thường là không khả thi về mặt kỹ thuật nếu không đào tạo lại toàn
-            bộ mô hình, đây là một công việc lớn và tốn kém. Tương tự, việc phản
-            đối xử lý vì "lợi ích hợp pháp" (như cải thiện mô hình chung) đòi
-            hỏi phải xem xét cẩn thận các yêu cầu hoạt động của một sản phẩm AI.
-            Chính sách nên minh bạch giải quyết các giới hạn của các quyền này
-            trong bối cảnh cụ thể của việc đào tạo mô hình AI. Ví dụ, nó có thể
-            nêu rằng trong khi dữ liệu nhận dạng người dùng bị xóa khỏi cơ sở dữ
-            liệu hoạt động theo yêu cầu, dữ liệu <em>phái sinh</em> từ đó có thể
-            tồn tại dưới dạng ẩn danh hoặc tổng hợp trong các mô hình AI đã được
-            đào tạo, từ đó không thể trích xuất hoặc "bỏ học" riêng lẻ. Điều này
+            dữ liệu của người dùng (bản ghi cuộc họp, đầu vào cụ thể) đã được sử
+            dụng để đào tạo hoặc tinh chỉnh một mô hình AI nền tảng, việc thực
+            sự "xóa" dữ liệu đó khỏi các tham số đã học của mô hình thường là
+            không khả thi về mặt kỹ thuật nếu không đào tạo lại toàn bộ mô hình,
+            đây là một công việc lớn và tốn kém. Tương tự, việc phản đối xử lý
+            vì "lợi ích hợp pháp" (như cải thiện mô hình chung) đòi hỏi phải xem
+            xét cẩn thận các yêu cầu hoạt động của một sản phẩm AI. Chính sách
+            nên minh bạch giải quyết các giới hạn của các quyền này trong bối
+            cảnh cụ thể của việc đào tạo mô hình AI. Ví dụ, nó có thể nêu rằng
+            trong khi dữ liệu nhận dạng người dùng bị xóa khỏi cơ sở dữ liệu
+            hoạt động theo yêu cầu, dữ liệu <em>phái sinh</em> từ đó có thể tồn
+            tại dưới dạng ẩn danh hoặc tổng hợp trong các mô hình AI đã được đào
+            tạo, từ đó không thể trích xuất hoặc "bỏ học" riêng lẻ. Điều này
             quản lý kỳ vọng của người dùng, tránh các tranh chấp pháp lý tiềm ẩn
             về phạm vi "xóa bỏ" trong bối cảnh AI, và cân bằng quyền riêng tư
             của người dùng với các thực tế kỹ thuật và nhu cầu hoạt động của một
@@ -916,8 +888,8 @@ const App = () => {
             Để thực hiện các quyền của mình, người dùng có thể làm theo hướng
             dẫn trong cài đặt tài khoản của họ hoặc liên hệ với Meobeo.ai qua
             địa chỉ email được chỉ định. Meobeo.ai sẽ cố gắng phản hồi các yêu
-            cầu trong khung thời gian hợp lý (ví dụ: trong vòng bảy ngày làm
-            việc đối với yêu cầu hủy hoặc xóa tài khoản, theo Fireflies.ai).
+            cầu trong khung thời gian hợp lý (trong vòng bảy ngày làm việc đối
+            với yêu cầu hủy hoặc xóa tài khoản).
           </p>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
             Người dùng có quyền khiếu nại với cơ quan giám sát, nhưng Meobeo.ai
@@ -931,142 +903,114 @@ const App = () => {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             11. Chuyển giao dữ liệu quốc tế
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Meobeo.ai có trụ sở tại [Quốc gia, ví dụ: Hoa Kỳ], và Thông tin cá
-            nhân có thể được chuyển đến và truy cập từ [Quốc gia, ví dụ: Hoa Kỳ]
-            và các quốc gia khác nơi Meobeo.ai hoặc các nhà cung cấp dịch vụ của
-            nó hoạt động.
+            Meobeo.ai có trụ sở tại Việt Nam. Trong quá trình cung cấp dịch vụ,
+            dữ liệu cá nhân có thể được truyền, lưu trữ và xử lý tại Việt Nam
+            hoặc chuyển ra nước ngoài đến các quốc gia nơi Meobeo.ai hoặc các
+            đối tác, nhà cung cấp dịch vụ đang hoạt động.
           </p>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Meobeo.ai sử dụng các biện pháp bảo vệ để đảm bảo rằng việc chuyển
-            giao dữ liệu tuân thủ luật bảo vệ dữ liệu hiện hành. Các biện pháp
-            này có thể bao gồm:
+            Việc chuyển giao dữ liệu cá nhân ra nước ngoài của Meobeo.ai được
+            thực hiện theo đúng quy định tại Điều 43 và Điều 44 Nghị định
+            13/2023/NĐ-CP. Các điều kiện bao gồm:
           </p>
-          <ul className="list-disc list-inside ml-4  text-[var(--text-color)]">
+          <ul className="list-disc list-inside ml-4 text-[var(--text-color)]">
             <li className="mb-2">
-              Dựa vào các quyết định đầy đủ (ví dụ: Khung bảo mật dữ liệu EU-Hoa
-              Kỳ, Phần mở rộng của Vương quốc Anh đối với Khung bảo mật dữ liệu
-              EU-Hoa Kỳ, Khung bảo mật dữ liệu Thụy Sĩ-Hoa Kỳ).
+              Có sự đồng ý rõ ràng của chủ thể dữ liệu về việc chuyển dữ liệu ra
+              nước ngoài.
             </li>
             <li className="mb-2">
-              Sử dụng các Điều khoản Hợp đồng Tiêu chuẩn (SCCs).
+              Cam kết rằng quốc gia hoặc vùng lãnh thổ tiếp nhận dữ liệu có mức
+              độ bảo vệ dữ liệu cá nhân tương đương với quy định pháp luật Việt
+              Nam.
             </li>
             <li className="mb-2">
-              Các Quy tắc Doanh nghiệp Ràng buộc (BCRs), nếu có.
+              Có hợp đồng hoặc thỏa thuận ràng buộc với bên nhận dữ liệu, bảo
+              đảm an toàn và bảo mật dữ liệu theo quy định pháp luật Việt Nam.
             </li>
             <li className="mb-2">
-              Cam kết chịu trách nhiệm về việc chuyển tiếp dữ liệu cho các bộ
-              điều khiển và đại lý bên thứ ba, đảm bảo mức độ bảo vệ quyền riêng
-              tư tương đương.
+              Thực hiện đánh giá tác động của việc chuyển giao dữ liệu cá nhân
+              ra nước ngoài (DPIA) và gửi báo cáo đánh giá cho Bộ Công an trong
+              thời hạn quy định.
             </li>
           </ul>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Việc tuân thủ rõ ràng các khung như Khung bảo mật dữ liệu (DPF) là
-            một tín hiệu mạnh mẽ về cam kết bảo vệ dữ liệu quốc tế, đặc biệt đối
-            với một sản phẩm AI có thể thu hút người dùng toàn cầu và xử lý dữ
-            liệu của họ ở một khu vực pháp lý cụ thể (ví dụ: Hoa Kỳ). Tuân thủ
-            DPF (hoặc dựa vào SCCs) là một tín hiệu tin cậy quan trọng đối với
-            người dùng Châu Âu, đặc biệt trong thời kỳ hậu Schrems II, khi việc
-            chuyển giao dữ liệu sang Hoa Kỳ phải đối mặt với sự giám sát chặt
-            chẽ hơn. Nó thể hiện cam kết cung cấp "mức độ bảo vệ đầy đủ" cho dữ
-            liệu được chuyển giao quốc tế, điều này rất quan trọng đối với một
-            sản phẩm AI xử lý thông tin nhạy cảm (như nội dung cuộc họp). Nếu
-            không có các cơ chế mạnh mẽ như vậy, người dùng EU/Anh có thể ngần
-            ngại sử dụng dịch vụ do lo ngại về chủ quyền dữ liệu và quyền riêng
-            tư. Việc tuân thủ các khung chuyển giao dữ liệu được công nhận mang
-            lại sự chắc chắn về mặt pháp lý cho các luồng dữ liệu quốc tế, giảm
-            đáng kể nguy cơ bị thách thức pháp lý hoặc phạt tiền. Đối với
-            Meobeo.ai, đây không chỉ là một mục kiểm tra tuân thủ mà còn là một
-            yếu tố khác biệt hóa cạnh tranh, cho phép công ty tự tin phục vụ cơ
-            sở người dùng toàn cầu và tạo sự khác biệt so với các đối thủ cạnh
-            tranh có thể không có các cơ chế chuyển giao quốc tế mạnh mẽ như
-            vậy.
+            Meobeo.ai không chuyển giao dữ liệu cá nhân ra nước ngoài cho mục
+            đích khác với mục đích ban đầu nếu không có sự đồng ý lại từ người
+            dùng. Chúng tôi cũng không chia sẻ dữ liệu cá nhân với bên thứ ba
+            bên ngoài Việt Nam nếu bên đó không đáp ứng đầy đủ các yêu cầu bảo
+            vệ dữ liệu theo luật Việt Nam.
           </p>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Meobeo.ai cũng giải thích các cơ chế lựa chọn, bao gồm các tùy chọn
-            từ chối tiết lộ cho bên thứ ba hoặc cho các mục đích sử dụng khác
-            biệt đáng kể so với mục đích ban đầu, và các yêu cầu đồng ý cho
-            thông tin nhạy cảm.
+            Việc tuân thủ đầy đủ các quy định pháp lý liên quan đến chuyển giao
+            dữ liệu không chỉ giúp Meobeo.ai giảm thiểu rủi ro pháp lý mà còn
+            củng cố niềm tin với người dùng, đặc biệt trong bối cảnh các sản
+            phẩm AI xử lý nội dung nhạy cảm như dữ liệu cuộc họp ngày càng bị
+            giám sát chặt chẽ về quyền riêng tư và chủ quyền dữ liệu.
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
-            12. Tuân thủ các quy định bảo vệ dữ liệu cụ thể
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
+            12. Tuân thủ các quy định bảo vệ dữ liệu cá nhân
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Phần này nêu rõ sự tuân thủ của Meobeo.ai với các luật bảo vệ dữ
-            liệu khu vực chính, thể hiện cam kết toàn cầu của Meobeo.ai đối với
-            quyền riêng tư.
+            Meobeo.ai cam kết tuân thủ nghiêm ngặt các quy định bảo vệ dữ liệu
+            cá nhân theo từng khu vực pháp lý mà chúng tôi phục vụ. Với trụ sở
+            đặt tại TP. Hồ Chí Minh, Việt Nam, Meobeo.ai đảm bảo tuân thủ đầy đủ
+            pháp luật Việt Nam về an toàn thông tin và dữ liệu cá nhân, đồng
+            thời áp dụng các tiêu chuẩn quốc tế để bảo vệ quyền riêng tư của
+            người dùng trên toàn cầu.
           </p>
 
           <h3 className="text-2xl font-semibold text-orange-400 mb-3">
-            Quyền của cư dân California (CCPA/CPRA)
+            Tuân thủ pháp luật Việt Nam về bảo vệ dữ liệu cá nhân
           </h3>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Meobeo.ai trình bày chi tiết các quyền cụ thể được cấp cho cư dân
-            California theo Mục 1798.83 Bộ luật Dân sự California (Shine the
-            Light) và Đạo luật Quyền riêng tư của Người tiêu dùng California
-            (CCPA), đã được sửa đổi bởi Đạo luật Quyền riêng tư California
-            (CPRA). Các quyền này bao gồm "Yêu cầu biết" (các danh mục và các
-            phần cụ thể của Thông tin cá nhân được thu thập, bán hoặc tiết lộ)
-            và "Yêu cầu xóa". Meobeo.ai làm rõ rằng họ không chia sẻ hoặc bán
-            Thông tin cá nhân cho các bên thứ ba cho mục đích tiếp thị trực tiếp
-            của họ. Tuyên bố rõ ràng "không chia sẻ hoặc bán Thông tin cá nhân
-            cho các bên thứ ba cho mục đích tiếp thị trực tiếp của họ" là một
-            yếu tố xây dựng niềm tin quan trọng, đặc biệt đối với một sản phẩm
-            AI nơi việc kiếm tiền từ dữ liệu là một mối lo ngại chung của người
-            dùng. Một trong những nỗi sợ hãi lớn nhất của người dùng đối với các
-            dịch vụ trực tuyến, đặc biệt là các sản phẩm AI xử lý lượng lớn dữ
-            liệu cá nhân và có khả năng nhạy cảm, là việc "bán" thông tin cá
-            nhân của họ cho các bên thứ ba cho mục đích tiếp thị hoặc các mục
-            đích khác. Một tuyên bố rõ ràng, không mơ hồ rằng dữ liệu{' '}
-            <em>không được bán</em> cho mục đích tiếp thị trực tiếp giải quyết
-            trực tiếp mối lo ngại cơ bản này, vốn thường là nguyên nhân sâu xa
-            của những lo ngại về quyền riêng tư rộng hơn. Tuyên bố này không chỉ
-            tuân thủ quy định mà còn là một tín hiệu tin cậy mạnh mẽ, tăng cường
-            đáng kể sự tin tưởng của người dùng và danh tiếng của Meobeo.ai như
-            một dịch vụ quan tâm đến quyền riêng tư. Chính sách cũng bao gồm các
-            đại lý được ủy quyền, phương pháp gửi yêu cầu, thời gian phản hồi và
-            quyền không bị phân biệt đối xử.
+            Meobeo.ai tuân thủ Luật An ninh mạng 2018 và Nghị định 13/2023/NĐ-CP
+            về bảo vệ dữ liệu cá nhân. Chúng tôi chỉ thu thập và xử lý dữ liệu
+            khi có sự đồng thuận rõ ràng từ người dùng và đảm bảo rằng dữ liệu
+            được sử dụng đúng mục đích, giới hạn trong phạm vi cần thiết. Người
+            dùng có quyền yêu cầu truy cập, chỉnh sửa, xóa dữ liệu, phản đối
+            việc xử lý và yêu cầu rút lại sự đồng thuận bất kỳ lúc nào theo đúng
+            quy định pháp luật. Meobeo.ai không chia sẻ, mua bán dữ liệu cá nhân
+            với bất kỳ bên thứ ba nào cho mục đích thương mại hoặc tiếp thị trực
+            tiếp.
           </p>
 
           <h3 className="text-2xl font-semibold text-orange-400 mb-3 mt-6">
-            Các cân nhắc về nguyên tắc GDPR (nếu nhắm mục tiêu người dùng
-            EU/Anh)
+            Tuân thủ CCPA/CPRA đối với người dùng California
           </h3>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Mặc dù không phải là một chính sách GDPR đầy đủ, Meobeo.ai thừa nhận
-            sự tuân thủ các nguyên tắc GDPR chính (ví dụ: tính hợp pháp, công
-            bằng, minh bạch, giới hạn mục đích, giảm thiểu dữ liệu, độ chính
-            xác, giới hạn lưu trữ, tính toàn vẹn và bảo mật, trách nhiệm giải
-            trình). Meobeo.ai cũng đề cập đến sự hợp tác với các cơ quan bảo vệ
-            dữ liệu của EU (DPA) và Văn phòng Ủy viên Thông tin Vương quốc Anh
-            (ICO) đối với các khiếu nại chưa được giải quyết.
+            Đối với cư dân California, Meobeo.ai tuân thủ các quyền theo Đạo
+            luật CCPA và CPRA, bao gồm quyền biết, quyền truy cập, quyền yêu cầu
+            xóa, quyền từ chối chia sẻ dữ liệu và quyền không bị phân biệt đối
+            xử khi thực hiện các quyền nói trên. Người dùng có thể chỉ định đại
+            lý được ủy quyền thay mặt gửi yêu cầu bảo vệ dữ liệu. Meobeo.ai
+            không bán hoặc chia sẻ dữ liệu người dùng California cho mục đích
+            tiếp thị.
           </p>
 
           <h3 className="text-2xl font-semibold text-orange-400 mb-3 mt-6">
-            Giám sát của Ủy ban Thương mại Liên bang (FTC)
+            Tuân thủ GDPR đối với người dùng tại EU và Vương quốc Anh
           </h3>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Meobeo.ai thừa nhận rằng họ phải tuân theo các quyền điều tra và
-            thực thi của Ủy ban Thương mại Liên bang (FTC).
-          </p>
-
-          <h3 className="text-2xl font-semibold text-orange-400 mb-3 mt-6">
-            Trọng tài ràng buộc
-          </h3>
-          <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
-            Meobeo.ai cũng lưu ý quyền yêu cầu trọng tài ràng buộc trong một số
-            điều kiện nhất định đối với các khiếu nại liên quan đến DPF.
+            Khi cung cấp dịch vụ tới người dùng tại EU và Anh, Meobeo.ai áp dụng
+            đầy đủ các nguyên tắc của Quy định chung về bảo vệ dữ liệu (GDPR),
+            bao gồm tính hợp pháp, minh bạch, giới hạn mục đích, giảm thiểu dữ
+            liệu, độ chính xác, giới hạn lưu trữ, tính toàn vẹn, bảo mật và
+            trách nhiệm giải trình. Meobeo.ai sẵn sàng hợp tác với các Cơ quan
+            Bảo vệ Dữ liệu (DPA) của EU và Văn phòng Ủy viên Thông tin (ICO) của
+            Anh trong việc giải quyết các khiếu nại liên quan đến quyền riêng tư
+            và dữ liệu cá nhân.
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             13. Lưu giữ dữ liệu
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -1074,7 +1018,7 @@ const App = () => {
             thực hiện các mục đích mà nó được thu thập, bao gồm việc cung cấp
             Dịch vụ, giải quyết tranh chấp, thực thi thỏa thuận và tuân thủ các
             nghĩa vụ pháp lý. Thông tin cá nhân sẽ bị xóa theo yêu cầu của người
-            dùng (ví dụ: hủy tài khoản), tuân theo các ngoại lệ pháp lý.
+            dùng (hủy tài khoản), tuân theo các ngoại lệ pháp lý.
           </p>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
             Đối với các sản phẩm AI, việc "không còn cần thiết" có thể ngụ ý
@@ -1101,7 +1045,7 @@ const App = () => {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             14. Thay đổi đối với Chính sách Bảo mật này
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -1122,29 +1066,27 @@ const App = () => {
             mạnh mẽ, đặc biệt đối với các thay đổi quan trọng liên quan đến việc
             xử lý dữ liệu AI cốt lõi. Công nghệ AI đang phát triển nhanh chóng.
             Các tính năng mới, các mô hình AI cơ bản mới, các cách xử lý đầu vào
-            của người dùng khác nhau (ví dụ: chuyển từ các mô hình dựa trên quy
-            tắc sang các mô hình học sâu) hoặc các tích hợp API AI của bên thứ
-            ba mới có thể đòi hỏi các bản cập nhật chính sách thường xuyên hơn
-            và có khả năng quan trọng hơn so với một trang web tĩnh. Các thay
-            đổi về cách dữ liệu nhạy cảm được AI xử lý đặc biệt có tác động. Với
+            của người dùng khác nhau (chuyển từ các mô hình dựa trên quy tắc
+            sang các mô hình học sâu) hoặc các tích hợp API AI của bên thứ ba
+            mới có thể đòi hỏi các bản cập nhật chính sách thường xuyên hơn và
+            có khả năng quan trọng hơn so với một trang web tĩnh. Các thay đổi
+            về cách dữ liệu nhạy cảm được AI xử lý đặc biệt có tác động. Với
             tính chất động của AI, Meobeo.ai nên nỗ lực giao tiếp chủ động và rõ
             ràng về các thay đổi, đặc biệt là những thay đổi liên quan đến cách
             AI xử lý dữ liệu hoặc các thực tiễn chia sẻ dữ liệu mới. Mặc dù "cố
             gắng thông báo" và "tiếp tục sử dụng cấu thành sự chấp nhận" là tiêu
             chuẩn, đối với <em>các thay đổi quan trọng</em> liên quan đến việc
-            xử lý dữ liệu AI nhạy cảm (ví dụ: một mục đích mới để xử lý dữ liệu,
-            hoặc một danh mục bộ xử lý AI bên thứ ba mới), việc chấp nhận
-            "click-wrap" rõ ràng hơn (trong đó người dùng phải chủ động nhấp vào
-            "Tôi đồng ý" với các điều khoản mới) có thể được khuyến nghị để đảm
-            bảo khả năng thực thi pháp lý và nhận thức không thể phủ nhận của
-            người dùng. Điều này ngăn người dùng tuyên bố rằng họ không biết về
-            những thay đổi đáng kể về cách dữ liệu AI nhạy cảm của họ được xử
-            lý.
+            xử lý dữ liệu AI nhạy cảm, việc chấp nhận "click-wrap" rõ ràng hơn
+            (trong đó người dùng phải chủ động nhấp vào "Tôi đồng ý" với các
+            điều khoản mới) có thể được khuyến nghị để đảm bảo khả năng thực thi
+            pháp lý và nhận thức không thể phủ nhận của người dùng. Điều này
+            ngăn người dùng tuyên bố rằng họ không biết về những thay đổi đáng
+            kể về cách dữ liệu AI nhạy cảm của họ được xử lý.
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-3xl font-semibold text-orange-500 mb-4">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary)] mb-4">
             15. Liên hệ với chúng tôi
           </h2>
           <p style={{ color: 'var(--text-color)', marginBottom: '1rem' }}>
@@ -1160,21 +1102,20 @@ const App = () => {
             . Việc cung cấp một địa chỉ email bảo mật hoặc quyền riêng tư chuyên
             dụng củng cố cam kết bảo vệ dữ liệu và cung cấp một kênh rõ ràng cho
             các yêu cầu của người dùng, điều này rất quan trọng đối với một sản
-            phẩm AI. Một địa chỉ email chuyên dụng (ví dụ:{' '}
-            <code>assistant.meowmo@gmail.com</code>)
-            báo hiệu rằng công ty coi trọng quyền riêng tư và có một kênh cụ
-            thể, có thể xác định được cho các yêu cầu liên quan đến quyền riêng
-            tư. Điều này đáng tin cậy hơn đáng kể đối với người dùng so với một
-            email hỗ trợ chung, đặc biệt khi xử lý dữ liệu được xử lý bởi AI có
-            tính nhạy cảm. Nó truyền tải tính chuyên nghiệp và cam kết giải
-            quyết trực tiếp các mối lo ngại của người dùng. Điểm liên hệ trực
-            tiếp này rất quan trọng để người dùng thực hiện hiệu quả các quyền
-            bảo vệ dữ liệu của họ (ví dụ: truy cập, xóa, phản đối), báo cáo các
-            vi phạm dữ liệu tiềm ẩn hoặc tìm kiếm làm rõ về bất kỳ khía cạnh nào
-            của chính sách. Nó đáp ứng một yêu cầu chính của nhiều quy định bảo
-            vệ dữ liệu (ví dụ: Điều 13/14 GDPR về danh tính và chi tiết liên hệ
-            của bộ điều khiển) và thể hiện trách nhiệm giải trình, trao quyền
-            cho người dùng quản lý quyền riêng tư của họ.
+            phẩm AI. Một địa chỉ email chuyên dụng ({' '}
+            <code>assistant.meowmo@gmail.com</code>) báo hiệu rằng công ty coi
+            trọng quyền riêng tư và có một kênh cụ thể, có thể xác định được cho
+            các yêu cầu liên quan đến quyền riêng tư. Điều này đáng tin cậy hơn
+            đáng kể đối với người dùng so với một email hỗ trợ chung, đặc biệt
+            khi xử lý dữ liệu được xử lý bởi AI có tính nhạy cảm. Nó truyền tải
+            tính chuyên nghiệp và cam kết giải quyết trực tiếp các mối lo ngại
+            của người dùng. Điểm liên hệ trực tiếp này rất quan trọng để người
+            dùng thực hiện hiệu quả các quyền bảo vệ dữ liệu của họ (truy cập,
+            xóa, phản đối), báo cáo các vi phạm dữ liệu tiềm ẩn hoặc tìm kiếm
+            làm rõ về bất kỳ khía cạnh nào của chính sách. Nó đáp ứng một yêu
+            cầu chính của nhiều quy định bảo vệ dữ liệu (Điều 13/14 GDPR về danh
+            tính và chi tiết liên hệ của bộ điều khiển) và thể hiện trách nhiệm
+            giải trình, trao quyền cho người dùng quản lý quyền riêng tư của họ.
           </p>
         </section>
       </main>
