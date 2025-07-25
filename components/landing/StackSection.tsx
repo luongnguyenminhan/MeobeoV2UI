@@ -15,17 +15,17 @@ export default function StackSection({ id }: { id: string }) {
         background: 'var(--background-color)',
       }}
     >
-      <div className="max-w-full mx-auto px-20 flex flex-col gap-5">
+      <div className="max-w-full mx-auto px-4 lg:px-20 flex flex-col gap-5">
         {/* Title */}
         <h2
-          className="text-2xl md:text-3xl font-bold text-left tracking-tight"
+          className="text-2xl lg:text-3xl font-bold text-left tracking-tight"
           style={{ color: 'var(--text-color)' }}
         >
           {t('title')}
         </h2>
 
         {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center max-h-[40vh]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-12 items-center">
           {/* Left – Timeline */}
           <div className="relative space-y-8">
             {[0, 1, 2].map((idx) => (
@@ -33,13 +33,13 @@ export default function StackSection({ id }: { id: string }) {
                 {/* Timeline Marker */}
                 <div className="relative flex-shrink-0">
                   <div
-                    className="w-12 h-12 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 bg-[var(--primary-color)]"
+                    className="w-10 h-10 lg:w-12 lg:h-12 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 bg-[var(--primary-color)]"
                     style={{ color: 'var(--background-color)' }}
                   >
                     {idx + 1}
                   </div>
                   {idx < 2 && (
-                    <div className="absolute top-12 left-6 w-0.5 h-16 bg-[var(--accent-color)]"></div>
+                    <div className="absolute top-10 lg:top-12 left-5 lg:left-6 w-0.5 h-16 bg-[var(--accent-color)]"></div>
                   )}
                 </div>
                 <div className="pt-2">
@@ -62,13 +62,14 @@ export default function StackSection({ id }: { id: string }) {
 
           {/* Center – Cat image */}
           <div className="flex justify-center">
-            <Image
-              src="/images/cat.png"
-              alt={t('catAlt')}
-              width={250}
-              height={250}
-              className="object-contain hover:scale-105 transition-transform duration-300"
-            />
+            <div className="relative w-full max-w-[250px] aspect-square">
+              <Image
+                src="/images/cat.png"
+                alt={t('catAlt')}
+                fill
+                className="object-contain hover:scale-105 transition-transform duration-300"
+              />
+            </div>
           </div>
 
           {/* Right – Benefits */}
@@ -89,7 +90,7 @@ export default function StackSection({ id }: { id: string }) {
             <ul className="space-y-4 text-sm">
               {[0, 1, 2, 3].map((idx) => (
                 <li key={idx} className="flex items-center gap-3">
-                  <div className="w-5 h-5 rounded flex items-center justify-center bg-[var(--accent-color)]">
+                  <div className="w-5 h-5 min-w-5 min-h-5 rounded flex items-center justify-center bg-[var(--accent-color)]">
                     <svg
                       className="w-4 h-4"
                       style={{ color: 'var(--primary-color)' }}
@@ -113,25 +114,13 @@ export default function StackSection({ id }: { id: string }) {
           </div>
         </div>
 
-        {/* Bottom Section */}
         <div
-          className="relative w-screen left-1/2 right-1/2 -mx-[50vw] h-[50vh] py-16 bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)]"
+          className="relative w-screen left-1/2 right-1/2 -mx-[50vw] h-auto py-8 lg:py-16 bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] px-10"
           style={{ color: 'var(--background-color)' }}
         >
-          <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative">
-            {/* Left – Laptop Image */}
-            <div className="relative flex justify-end items-start">
-              <Image
-                src="/images/laptop2.png"
-                alt={t('laptopAlt')}
-                width={2000}
-                height={2000}
-                className="object-contain hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-
+          <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center relative">
             {/* Right – Text content */}
-            <div className="flex flex-col justify-center space-y-6">
+            <div className="flex flex-col justify-center space-y-6 order-1 lg:order-2">
               <Image
                 src="/images/logos/logo.png"
                 alt={t('miniCatAlt')}
@@ -139,7 +128,7 @@ export default function StackSection({ id }: { id: string }) {
                 height={100}
                 className="object-contain"
               />
-              <div className="text-3xl md:text-4xl font-extrabold leading-tight text-white">
+              <div className="text-2xl lg:text-4xl font-extrabold leading-tight text-white">
                 {t('bottom.title')}
               </div>
               <a
@@ -153,12 +142,22 @@ export default function StackSection({ id }: { id: string }) {
                   alt={t('chromeStoreAlt')}
                   width={523}
                   height={175}
-                  className="w-[260px] h-auto"
+                  className="w-full max-w-[260px] h-auto"
                 />
               </a>
               <div className="text-base text-white">
                 <strong>{t('bottom.strong')}</strong> {t('bottom.desc')}
               </div>
+            </div>
+
+            {/* Left – Laptop Image */}
+            <div className="relative w-full max-w-[600px] aspect-[4/3] mx-auto order-2 md:order-1">
+              <Image
+                src="/images/laptop2.png"
+                alt={t('laptopAlt')}
+                fill
+                className="object-contain hover:scale-105 transition-transform duration-300"
+              />
             </div>
           </div>
         </div>
