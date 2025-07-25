@@ -71,7 +71,7 @@ const HeroSection = ({ id }: { id: string }) => {
         </p>
         <div className="flex items-start flex-col space-x-4 space-y-8">
           <Link
-            href="#"
+            href="https://chromewebstore.google.com/detail/meowmo/eacneidbgomibehikolkflgompbohedi"
             className="inline-flex items-center text-white rounded-md hover:opacity-90 transition"
           >
             <Image 

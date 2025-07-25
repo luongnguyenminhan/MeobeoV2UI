@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function StackSection({ id }: { id: string }) {
   const t = useTranslations('HomePage.stack');
@@ -131,8 +132,8 @@ export default function StackSection({ id }: { id: string }) {
               <div className="text-2xl lg:text-4xl font-extrabold leading-tight text-white">
                 {t('bottom.title')}
               </div>
-              <a
-                href="https://chrome.google.com/webstore"
+              <Link
+                href="https://chromewebstore.google.com/detail/meowmo/eacneidbgomibehikolkflgompbohedi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
@@ -144,7 +145,7 @@ export default function StackSection({ id }: { id: string }) {
                   height={175}
                   className="w-full max-w-[260px] h-auto"
                 />
-              </a>
+              </Link>
               <div className="text-base text-white">
                 <strong>{t('bottom.strong')}</strong> {t('bottom.desc')}
               </div>
