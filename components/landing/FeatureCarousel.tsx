@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import gsap from 'gsap';
 
 function useFeatureTranslations() {
   const t = useTranslations('HomePage.features.carousel.features');
@@ -45,8 +46,14 @@ export default function FeatureCarousel({
   carouselRef: React.RefObject<HTMLDivElement>;
 }) {
   const features = useFeatureTranslations();
+  const localRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    if (localRef.current) {
+      gsap.from(localRef.current, { opacity: 0, y: 50, duration: 1 });
+    }
+  }, []);
   return (
-    <div className="relative w-full py-8">
+    <div className="relative w-full py-8" ref={localRef}>
       <div className="relative w-full px-0">
         <div
           ref={carouselRef}

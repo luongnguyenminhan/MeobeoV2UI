@@ -3,12 +3,22 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
 
 export default function StackSection({ id }: { id: string }) {
   const t = useTranslations('HomePage.stack');
+  const sectionRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (sectionRef.current) {
+      gsap.from(sectionRef.current, { opacity: 0, y: 50, duration: 1 });
+    }
+  }, []);
 
   return (
     <section
+      ref={sectionRef}
       id={id}
       className="relative pt-10 lg:pt-20 font-sans bg-white"
       style={{

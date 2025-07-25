@@ -27,6 +27,7 @@
     "axios": "^1.7.7",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.17",
+    "gsap": "^3.13.0",
     "next": "^15.0.3",
     "next-intl": "^3.25.0",
     "next-router-mock": "^0.9.13",

@@ -1,13 +1,21 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaUserCircle } from 'react-icons/fa';
+import gsap from 'gsap';
 
 const HeroSection = ({ id }: { id: string }) => {
   const t = useTranslations('HomePage.hero');
+  const sectionRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (sectionRef.current) {
+      gsap.from(sectionRef.current, { opacity: 0, y: 50, duration: 1 });
+    }
+  }, []);
 
   interface FeatureCardProps {
     title: string;
@@ -56,6 +64,7 @@ const HeroSection = ({ id }: { id: string }) => {
 
   return (
     <section
+      ref={sectionRef}
       id={id}
       className="min-h-screen flex flex-col lg:flex-row justify-center items-center py-20 lg:py-32 bg-[var(--background-color)] text-[var(--text-color)] font-[var(--font-family-base)] px-20 md:gap-y-10"
     >
