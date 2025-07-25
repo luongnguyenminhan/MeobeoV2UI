@@ -11,12 +11,14 @@ import FooterSection from '@/components/landing/FooterSection';
 export default async function HomePage() {
   // const intl = await getIntl(locale); // i18n ready
   return (
-    <main className='overflow-x-hidden'>
+    <>
+    <main className='overflow-x-hidden px-10 lg:px-32'>
       <HeroSection id="hero" />
       <FeaturesSection id="features" />
       <StackSection id="stack" />
       <TestimonialsSection id="testimonials" />
-      <FooterSection id="footer" />
     </main>
+    <FooterSection id="footer" />
+    </>
   );
 }

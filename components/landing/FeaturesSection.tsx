@@ -39,10 +39,10 @@ export default function FeaturesSection({ id }: { id: string }) {
     <section
       ref={sectionRef}
       id={id}
-      className="relative py-5 lg:py-24 bg-[var(--background-color)] w-full px-5"
+      className="relative pt-5 lg:pt-24 bg-[var(--background-color)] w-full px-5"
     >
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12">
+      <div className="mx-auto w-full">
+        <div className="flex flex-col md:flex-row md:justify-between">
           <div className="max-w-2xl xl:max-w-[40%] mx-auto md:mx-0 text-left mb-6 md:mb-0">
             <h2 className="text-5xl font-bold sm:text-4xl tracking-tight text-[var(--text-color)] mb-6">
               {t('title.prefix')}{' '}
