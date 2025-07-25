@@ -23,7 +23,7 @@ const FooterSection = ({ id }: { id: string }) => {
         {t('privacy')}
         </Link>
         <Link
-        href="/terms"
+        href="/terms-of-service"
         className="text-white hover:text-[var(--muted-text-color)] transition-colors hover:underline"
         >
         {t('terms')}

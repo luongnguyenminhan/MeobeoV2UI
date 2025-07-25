@@ -5,7 +5,6 @@ import { useTranslations } from 'next-intl';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 import Image from 'next/image';
-import { Button } from 'antd';
 import { useRouter } from 'next/navigation';
 
 const NAV_ITEMS = [
@@ -14,6 +13,19 @@ const NAV_ITEMS = [
   { label: 'techStack', href: '#stack' },
   { label: 'testimonials', href: '#testimonials' },
 ];
+
+const PrimaryButton = ({
+  children,
+  className = '',
+  ...props
+}: React.ButtonHTMLAttributes<HTMLButtonElement>) => (
+  <button
+    className={`bg-orange-600 text-white px-5 py-2 rounded font-semibold transition hover:opacity-90 ${className}`}
+    {...props}
+  >
+    {children}
+  </button>
+);
 
 const Header = () => {
   const t = useTranslations('Header.navigation');
@@ -63,13 +75,12 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <LanguageSwitcher />
             <ThemeToggle />
-            <Button
-              type="primary"
+            <PrimaryButton
               className="hidden md:inline-block"
               onClick={handleStartNow}
             >
               {t('startNow')}
-            </Button>
+            </PrimaryButton>
             <button
               className="md:hidden p-2 rounded hover:bg-[var(--surface-color)]"
               onClick={() => setMobileOpen((v) => !v)}
@@ -114,16 +125,15 @@ const Header = () => {
                 </li>
               ))}
               <li>
-                <Button
-                  type="primary"
-                  block
+                <PrimaryButton
+                  className="w-full"
                   onClick={() => {
                     setMobileOpen(false);
                     handleStartNow();
                   }}
                 >
                   {t('startNow')}
-                </Button>
+                </PrimaryButton>
               </li>
             </ul>
           </nav>
