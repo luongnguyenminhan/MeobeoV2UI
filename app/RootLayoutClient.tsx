@@ -24,15 +24,27 @@ export default function RootLayoutClient({
   // Đảm bảo SSR luôn có className phù hợp theme (light/dark)
   // ThemeProvider sẽ cập nhật lại nếu user chọn theme khác
   return (
-    <html lang={locale} suppressHydrationWarning={true} className="bg-[var(--background-color)] text-[var(--text-color)]">
+    <html
+      lang={locale}
+      suppressHydrationWarning={true}
+      className="bg-[var(--background-color)] text-[var(--text-color)]"
+    >
       <head>
         {/* Preload CSS để tránh FART */}
         <link rel="preload" href="/styles/globals.css" as="style" />
         <link rel="stylesheet" href="/styles/globals.css" />
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" as="style" />
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Sofia&display=swap" as="style" />
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
+          as="style"
+        />
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Sofia&display=swap"
+          as="style"
+        />
       </head>
-      <body style={{ fontFamily: "var(--font-family-base)" }}>
+      <body style={{ fontFamily: 'var(--font-family-base)' }}>
         <ThemeProvider>
           <Provider store={store}>
             <ReactQueryProvider>

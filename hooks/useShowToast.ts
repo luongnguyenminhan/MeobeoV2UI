@@ -1,6 +1,6 @@
-import { toast } from "sonner";
+import { toast } from 'sonner';
 
-type ToastType = "success" | "error" | "warning" | "info";
+type ToastType = 'success' | 'error' | 'warning' | 'info';
 
 const showToast = (
   type: ToastType,
@@ -8,10 +8,10 @@ const showToast = (
   duration: number = 3000,
 ) => {
   const titles: Record<ToastType, string> = {
-    success: "Thành công",
-    error: "Lỗi",
-    warning: "Cảnh báo",
-    info: "Thông báo",
+    success: 'Thành công',
+    error: 'Lỗi',
+    warning: 'Cảnh báo',
+    info: 'Thông báo',
   };
 
   const toastMessage = `${titles[type]}`;

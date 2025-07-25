@@ -1,14 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import {
-  Button,
-  Card,
-  Typography,
-  Row,
-  Col,
-  Space,
-  Collapse,
-} from 'antd';
+import { Button, Card, Typography, Row, Col, Space, Collapse } from 'antd';
 import { DownOutlined, UpOutlined } from '@ant-design/icons';
 import { FaReact } from 'react-icons/fa';
 import Image from 'next/image';

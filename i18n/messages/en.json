@@ -124,34 +124,34 @@
       "description": "Hear from developers who’ve accelerated their projects using the Next.js Starter Kit.",
       "ctaTitle": "Why choose Meobeo.ai?",
       "ctaButton": "Explore now",
-      "benefits": {
-        "0": "Save development time",
-        "1": "Pre-integrated modern tools",
-        "2": "Multilingual and state management support",
-        "3": "Active developer community"
-      },
-      "items": {
-        "0": {
+      "benefits": [
+        "Save time with automatic note-taking",
+        "Never miss important meeting information",
+        "Analyze sentiment and trends in content",
+        "Detect issues and opportunities from meeting data"
+      ],
+      "items": [
+        {
           "name": "Nguyễn Văn A",
           "title": "Frontend Developer",
           "review": "Meobeo.ai helped me launch projects much faster. The starter is easy to use and extend."
         },
-        "1": {
+        {
           "name": "Trần Thị B",
           "title": "Fullstack Engineer",
           "review": "I highly value the i18n and Redux integration. Clean UI and codebase."
         },
-        "2": {
+        {
           "name": "Lê Văn C",
           "title": "Tech Lead",
           "review": "This starter saved my team weeks of development. Great for large-scale projects."
         },
-        "3": {
+        {
           "name": "Phạm Thị D",
           "title": "Product Manager",
           "review": "I love how Meobeo.ai helps manage meetings and analyze data. Very useful!"
         }
-      }
+      ]
     }
   },
   "Header": {

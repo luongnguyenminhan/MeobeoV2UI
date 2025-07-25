@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import React from 'react';
 import { useTranslations } from 'next-intl';
@@ -17,7 +17,13 @@ const HeroSection = ({ id }: { id: string }) => {
     className?: string;
   }
 
-  const FeatureCard = ({ title, description, imageSrc, imageAlt, className = '' }: FeatureCardProps) => (
+  const FeatureCard = ({
+    title,
+    description,
+    imageSrc,
+    imageAlt,
+    className = '',
+  }: FeatureCardProps) => (
     <div
       className={`flex items-center p-4 rounded-xl w-fit max-w-[400px] max-h-[150px] bg-white ${className}`}
       style={{
@@ -26,7 +32,10 @@ const HeroSection = ({ id }: { id: string }) => {
       }}
     >
       <div className="flex flex-col">
-        <h3 className="text-lg font-semibold" style={{ color: 'var(--primary-color)' }}>
+        <h3
+          className="text-lg font-semibold"
+          style={{ color: 'var(--primary-color)' }}
+        >
           {title}
         </h3>
         <p className="text-sm" style={{ color: '#444' }}>
@@ -74,12 +83,12 @@ const HeroSection = ({ id }: { id: string }) => {
             href="https://chromewebstore.google.com/detail/meowmo/eacneidbgomibehikolkflgompbohedi"
             className="inline-flex items-center text-white rounded-md hover:opacity-90 transition"
           >
-            <Image 
-            src="/images/chrome-store.png" 
-            alt="Chrome Web Store" 
-            width={1000}
-            height={800} 
-            className='w-[200px]'
+            <Image
+              src="/images/chrome-store.png"
+              alt="Chrome Web Store"
+              width={1000}
+              height={800}
+              className="w-[200px]"
             />
           </Link>
           <div className="flex items-center">
@@ -93,7 +102,9 @@ const HeroSection = ({ id }: { id: string }) => {
               ))}
             </div>
             <span className="ml-3 text-sm font-medium">
-              <span className="ml-1 text-gray-500">{t('users')} {t('userLabel')}</span>
+              <span className="ml-1 text-gray-500">
+                {t('users')} {t('userLabel')}
+              </span>
             </span>
           </div>
         </div>

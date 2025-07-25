@@ -14,18 +14,18 @@ const FooterSection = ({ id }: { id: string }) => {
     >
       <div className="flex flex-col items-center">
         <div className="flex flex-wrap justify-center space-x-4 mb-4">
-            <Link
+          <Link
             href="/privacy"
             className="text-[var(--text-color)] hover:text-[var(--muted-text-color)] transition-colors hover:underline"
-            >
+          >
             {t('privacy')}
-            </Link>
-            <Link
+          </Link>
+          <Link
             href="/terms"
             className="text-[var(--text-color)] hover:text-[var(--muted-text-color)] transition-colors hover:underline"
-            >
+          >
             {t('terms')}
-            </Link>
+          </Link>
         </div>
         <p className="text-sm text-[var(--background-color)]">
           © {new Date().getFullYear()} {t('title')} . {t('rights')}

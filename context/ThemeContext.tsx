@@ -17,7 +17,10 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
 
   useEffect(() => {
     // Load theme from localStorage or system preference
-    const savedTheme = typeof window !== 'undefined' ? localStorage.getItem('theme') as Theme : null;
+    const savedTheme =
+      typeof window !== 'undefined'
+        ? (localStorage.getItem('theme') as Theme)
+        : null;
     if (savedTheme) {
       setThemeState(savedTheme);
       document.documentElement.classList.toggle('dark', savedTheme === 'dark');
@@ -28,7 +31,12 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
       setThemeState('dark');
       document.documentElement.classList.add('dark');
     }
-    console.log('ThemeContext mounted. Theme:', theme, 'HTML class:', document.documentElement.className);
+    console.log(
+      'ThemeContext mounted. Theme:',
+      theme,
+      'HTML class:',
+      document.documentElement.className,
+    );
   }, []);
 
   const setTheme = (nextTheme: Theme) => {

@@ -10,7 +10,7 @@ const NAV_ITEMS = [
   { label: 'home', href: '#hero' },
   { label: 'features', href: '#features' },
   { label: 'techStack', href: '#stack' },
-  { label: 'testimonials', href: '#testimonials'}
+  { label: 'testimonials', href: '#testimonials' },
 ];
 
 const Header = () => {

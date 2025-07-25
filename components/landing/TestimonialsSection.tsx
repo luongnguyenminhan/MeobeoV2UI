@@ -134,14 +134,14 @@ const TestimonialsSection = ({ id }: { id: string }) => {
         <TestimonialsCarousel carouselRef={carouselRef} />
         <button
           onClick={() => scroll('left')}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-[var(--primary-color)] text-white rounded-full w-10 h-10 flex items-center justify-center z-10 shadow"
+          className="absolute left-[-100px] top-1/2 transform -translate-y-1/2 bg-[var(--primary-color)] text-white rounded-full w-10 h-10 flex items-center justify-center z-10 shadow"
           aria-label="Scroll left"
         >
           <FaChevronLeft size={24} />
         </button>
         <button
           onClick={() => scroll('right')}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-[var(--primary-color)] text-white rounded-full w-10 h-10 flex items-center justify-center z-10 shadow"
+          className="absolute right-[-100px] top-1/2 transform -translate-y-1/2 bg-[var(--primary-color)] text-white rounded-full w-10 h-10 flex items-center justify-center z-10 shadow"
           aria-label="Scroll right"
         >
           <FaChevronRight size={24} />
