@@ -2,20 +2,52 @@
   "HomePage": {
     "title": "Xin chào thế giới!",
     "hero": {
-      "welcome": "Chào mừng đến với",
-      "title": "Next.js Starter",
-      "description": "Xây dựng nhanh hơn với bộ khởi động Next.js mạnh mẽ! Tích hợp các công cụ thiết yếu như quản lý trạng thái, React Query, I18n, CI/CD và các thành phần UI tuỳ chỉnh, đây là tất cả những gì bạn cần để bắt đầu dự án hiệu suất cao, dễ mở rộng một cách dễ dàng.",
+      "welcome": "Giải pháp toàn diện cho",
+      "title": "quản lý cuộc họp",
+      "description": "Tối ưu hóa quá trình họp với đầy đủ công cụ để ghi chép, phân tích và biến thông tin thành hành động",
       "buttons": {
-        "getStarted": "Bắt đầu",
+        "chromeStore": "Có mặt trên Chrome Web Store",
         "viewGithub": "Xem trên GitHub"
+      },
+      "users": "+50",
+      "userLabel": "người dùng đã tin tưởng sử dụng chúng tôi",
+      "brand": "Meobeo.ai",
+      "summaryCard": {
+        "title": "Tóm tắt cuộc họp",
+        "description": "Cô đọng, tóm tắt lại cuộc họp bằng AI trực tiếp & gián tiếp",
+        "imageAlt": "Icon tóm tắt"
+      },
+      "analyzeCard": {
+        "title": "Phân tích, tổng hợp",
+        "description": "Phân tích số lượng cuộc họp, thống kê hoạt động",
+        "imageAlt": "Icon phân tích"
       }
     },
     "features": {
       "title": {
-        "prefix": "Vì sao chọn",
-        "suffix": "Starter này?"
+        "prefix": "Các tính năng tuyệt vời cho một buổi họp ",
+        "suffix": "đầy sáng tạo"
       },
-      "description": "Tăng tốc quá trình phát triển với bộ khởi động Next.js mạnh mẽ, giàu tính năng, được thiết kế cho tốc độ, khả năng mở rộng và năng suất lập trình viên. Đây là những điểm nổi bật:",
+      "carousel": {
+        "features": [
+          {
+            "title": "Tự động tóm tắt",
+            "subtitle": "Cô đọng, tóm tắt lại cuộc họp bằng AI trực tiếp & gián tiếp"
+          },
+          {
+            "title": "Phân tích cuộc họp",
+            "subtitle": "Phân tích số lượng cuộc họp đã tham gia và thống kê"
+          },
+          {
+            "title": "Đồng bộ lịch",
+            "subtitle": "Đồng bộ qua lịch cá nhân, nắm bắt và nhắc nhở"
+          },
+          {
+            "title": "Quản lý nhóm",
+            "subtitle": "Thống kê, báo cáo cho nhóm nhiều hơn một cá nhân"
+          }
+        ]
+      },
       "items": {
         "openSource": {
           "name": "Miễn phí & Mã nguồn mở",
@@ -50,76 +82,90 @@
       }
     },
     "stack": {
-      "title": "Công nghệ sử dụng",
+      "catAlt": "Biểu tượng mèo",
+      "laptopAlt": "Laptop với Meobeo.ai",
+      "miniCatAlt": "Biểu tượng mèo nhỏ",
+      "chromeStoreAlt": "Chrome Web Store",
+      "bottom": {
+        "title": "Cài đặt dễ dàng, không tốn quá nhiều thời gian",
+        "strong": "Chờ gì mà không thử ngay!",
+        "desc": "Nhấn để cài đặt"
+      },
+      "title": "Làm việc thông minh hơn với Meobeo.ai",
       "overview": "Tổng quan",
       "description": "Tăng tốc quá trình phát triển với bộ khởi động Next.js mạnh mẽ, giàu tính năng, được thiết kế cho tốc độ, khả năng mở rộng và năng suất lập trình viên. Đây là những điểm nổi bật:",
-      "features": {
-        "nextjs": {
-          "title": "Next.js",
-          "description": "Nhanh mặc định, cấu hình tối ưu cho hiệu suất."
+      "timeline": [
+        {
+          "title": "Tải lên Transcript",
+          "desc": "Tải lên âm thanh hoặc văn bản từ cuộc họp của bạn"
         },
-        "tailwind": {
-          "title": "Tailwind CSS",
-          "description": "Framework CSS tiện ích giúp xây dựng UI nhanh chóng."
+        {
+          "title": "AI phân tích",
+          "desc": "Hệ thống phân tích nội dung và trích xuất thông tin chi tiết"
         },
-        "eslint": {
-          "title": "ESlint & Prettier",
-          "description": "Giúp code sạch, nhất quán và không lỗi."
-        },
-        "typescript": {
-          "title": "TypeScript nghiêm ngặt",
-          "description": "Sử dụng TypeScript để đảm bảo an toàn kiểu dữ liệu và phát triển ứng dụng vững chắc."
-        },
-        "testing": {
-          "title": "Jest & React Testing Library",
-          "description": "Kiểm thử đơn vị và tích hợp vững chắc."
-        },
-        "cypress": {
-          "title": "Cypress",
-          "description": "Sử dụng Cypress để đảm bảo trải nghiệm người dùng mượt mà qua quy trình kiểm thử hiệu quả."
-        },
-        "storybook": {
-          "title": "Storybook",
-          "description": "Tạo, kiểm thử và trình diễn các thành phần UI."
-        },
-        "git": {
-          "title": "Commit chuẩn",
-          "description": "Giữ lịch sử commit gọn gàng, dễ theo dõi."
-        },
-        "imports": {
-          "title": "Import tuyệt đối",
-          "description": "Không còn import lộn xộn."
-        },
-        "chakra": {
-          "title": "Chakra UI",
-          "description": "Thành phần UI headless cho tuỳ biến không giới hạn."
-        },
-        "cicd": {
-          "title": "Quy trình CI/CD tối ưu",
-          "description": "Tận dụng GitHub Actions để tự động hoá build, kiểm thử và triển khai chính xác, hiệu quả."
-        },
-        "redux": {
-          "title": "Quản lý trạng thái đơn giản",
-          "description": "Ứng dụng mạnh mẽ với Redux cho quản lý trạng thái dự đoán, dễ mở rộng."
+        {
+          "title": "Truy cập kết quả",
+          "desc": "Xem báo cáo, tóm tắt và điểm chính để hành động"
         }
+      ],
+      "benefits": {
+        "title": "Ưu điểm",
+        "items": [
+          "Extension hoạt động trên trình duyệt trực tiếp",
+          "Chia sẻ kết quả và ghi chú với đồng nghiệp một cách dễ dàng",
+          "Không bỏ lỡ bất kì sự kiện quan trọng nào trong cuộc họp",
+          "CMS hỗ trợ để theo dõi và phân tích nội dung"
+        ]
       }
     },
     "installation": "Hướng dẫn cài đặt và thiết lập dự án dễ dàng.",
     "testimonials": {
-      "title": "Người dùng nói gì",
-      "description": "Lắng nghe chia sẻ từ các lập trình viên đã tăng tốc dự án với Next.js Starter Kit này."
+      "title": "Người dùng nói gì về Meobeo.ai",
+      "description": "Lắng nghe chia sẻ từ các lập trình viên đã tăng tốc dự án với Next.js Starter Kit này.",
+      "ctaTitle": "Tại sao nên chọn Meobeo.ai?",
+      "ctaButton": "Khám phá ngay",
+      "benefits": {
+      "0": "Tiết kiệm thời gian phát triển dự án",
+      "1": "Tích hợp sẵn các công cụ hiện đại",
+      "2": "Hỗ trợ đa ngôn ngữ và quản lý trạng thái",
+      "3": "Cộng đồng lập trình viên năng động"
+      },
+      "items": {
+      "0": {
+        "name": "Nguyễn Văn A",
+        "title": "Frontend Developer",
+        "review": "Meobeo.ai giúp tôi triển khai dự án nhanh hơn rất nhiều. Bộ starter rất dễ dùng và mở rộng."
+      },
+      "1": {
+        "name": "Trần Thị B",
+        "title": "Fullstack Engineer",
+        "review": "Tôi đánh giá cao khả năng tích hợp i18n và Redux. UI đẹp, codebase sạch sẽ."
+      },
+      "2": {
+        "name": "Lê Văn C",
+        "title": "Tech Lead",
+        "review": "Starter này tiết kiệm cho team tôi hàng tuần phát triển. Hỗ trợ tốt cho các dự án lớn."
+      },
+      "3": {
+        "name": "Phạm Thị D",
+        "title": "Product Manager",
+        "review": "Tôi thích cách Meobeo.ai giúp quản lý cuộc họp và phân tích dữ liệu. Rất hữu ích!"
+      }
+      }
     }
   },
   "Header": {
     "navigation": {
       "home": "Trang chủ",
       "features": "Tính năng",
-      "techStack": "Công nghệ"
-    }
+      "techStack": "Công nghệ",
+      "testimonials": "Đánh giá"
+    },
+    "getStarted": "Thử ngay"
   },
   "Footer": {
-    "copyright": "Bản quyền © {year} NextJS StarterKit. Đã đăng ký bản quyền.",
-    "title": "NextJS StarterKit",
+    "copyright": "Bản quyền © {year} Meobeo.ai. Đã đăng ký bản quyền.",
+    "title": "Meobeo.ai",
     "rights": "Đã đăng ký bản quyền.",
     "github": "GitHub",
     "privacy": "Chính sách bảo mật",

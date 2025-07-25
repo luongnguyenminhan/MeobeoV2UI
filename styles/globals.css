@@ -6,7 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-family-base);
+  background: var(--background-color);
+  color: var(--text-color);
+  transition: background 0.2s, color 0.2s;
 }
 
 /* Light theme */
